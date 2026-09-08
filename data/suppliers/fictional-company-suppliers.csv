@@ -1,0 +1,5 @@
+relationship_id,customer_company_name,customer_company_number,supplier_company_name,supplier_company_number,supplier_reference_type,supply_category,relationship_status,valid_from,valid_to,synthetic
+SUP-001,Northbridge Infrastructure Services Limited,SYN90001,Carillion Construction Limited,00594581,companies-house-company-number,construction services,current,2016-01-15,,true
+SUP-002,Northbridge Infrastructure Services Limited,SYN90001,Carillion JM Limited,00077628,companies-house-company-number,facilities management,current,2016-06-01,,true
+SUP-003,Northbridge Infrastructure Services Limited,SYN90001,Balfour Beatty plc,00395826,companies-house-company-number,construction services,current,2024-03-10,,true
+SUP-004,Northbridge Infrastructure Services Limited,SYN90001,Travis Perkins plc,00824821,companies-house-company-number,building materials,current,2025-02-01,,true

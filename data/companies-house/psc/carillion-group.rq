@@ -1,0 +1,27 @@
+PREFIX group: <https://w3id.org/rdfox-project-x-demo/resource/group/>
+PREFIX psc: <https://w3id.org/rdfox-project-x-demo/ontology/psc#>
+
+SELECT DISTINCT
+  ?company
+  ?companyNumber
+  ?directController
+  ?directControllerNumber
+  ?reportedDirectControllerName
+WHERE {
+  ?company psc:memberOfGroup group:carillion ;
+    psc:companyNumber ?companyNumber .
+
+  OPTIONAL {
+    ?company psc:directlyControlledBy ?directController .
+    ?directController psc:companyNumber ?directControllerNumber .
+
+    OPTIONAL {
+      ?notification
+        psc:controlledCompany ?company ;
+        psc:controllerCompany ?directController ;
+        psc:reportedControllerName ?reportedDirectControllerName ;
+        psc:ceased false .
+    }
+  }
+}
+ORDER BY ?companyNumber ?directControllerNumber ?reportedDirectControllerName

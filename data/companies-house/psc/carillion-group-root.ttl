@@ -1,0 +1,7 @@
+@prefix psc: <https://w3id.org/rdfox-project-x-demo/ontology/psc#> .
+@prefix company: <https://w3id.org/rdfox-project-x-demo/resource/company/> .
+@prefix group: <https://w3id.org/rdfox-project-x-demo/resource/group/> .
+
+group:carillion
+    a psc:CorporateGroup ;
+    psc:hasGroupRoot company:03782379 .

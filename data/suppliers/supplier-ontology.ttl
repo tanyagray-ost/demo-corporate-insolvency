@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix psc: <https://w3id.org/rdfox-project-x-demo/ontology/psc#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix supply: <https://w3id.org/rdfox-project-x-demo/ontology/supply#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdfox-project-x-demo/ontology/supply>
+    a owl:Ontology ;
+    dcterms:title "Synthetic supplier relationship ontology"@en ;
+    dcterms:description
+        "A minimal ontology for joining supplier relationships to the corporate PSC graph."@en ;
+    dcterms:modified "2026-09-07"^^xsd:date .
+
+supply:SupplierRelationship
+    a owl:Class ;
+    rdfs:label "supplier relationship"@en .
+
+supply:customer
+    a owl:ObjectProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range psc:Company ;
+    rdfs:label "customer"@en .
+
+supply:supplier
+    a owl:ObjectProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range psc:Company ;
+    rdfs:label "supplier"@en .
+
+supply:companyName
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "company name recorded in the supplier system"@en .
+
+supply:supplierReferenceType
+    a owl:DatatypeProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range xsd:string ;
+    rdfs:label "supplier reference type"@en .
+
+supply:supplyCategory
+    a owl:DatatypeProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range xsd:string ;
+    rdfs:label "supply category"@en .
+
+supply:relationshipStatus
+    a owl:DatatypeProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range xsd:string ;
+    rdfs:label "relationship status"@en .
+
+supply:validFrom
+    a owl:DatatypeProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range xsd:date ;
+    rdfs:label "valid from"@en .
+
+supply:validTo
+    a owl:DatatypeProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range xsd:date ;
+    rdfs:label "valid to"@en .
+
+supply:synthetic
+    a owl:DatatypeProperty, owl:FunctionalProperty ;
+    rdfs:domain supply:SupplierRelationship ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "synthetic"@en .

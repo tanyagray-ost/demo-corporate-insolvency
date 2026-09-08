@@ -1,0 +1,143 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix psc: <https://w3id.org/rdfox-project-x-demo/ontology/psc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdfox-project-x-demo/ontology/psc>
+    a owl:Ontology ;
+    dcterms:title "Corporate PSC ownership ontology"@en ;
+    dcterms:description
+        "A minimal ontology for Companies House corporate PSC notifications and RDFox-derived corporate groups."@en ;
+    dcterms:modified "2026-09-07"^^xsd:date .
+
+psc:Company
+    a owl:Class ;
+    rdfs:label "company"@en .
+
+psc:CorporateEntityPSCNotification
+    a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:label "corporate entity PSC notification"@en .
+
+psc:CorporateGroup
+    a owl:Class ;
+    rdfs:label "corporate group"@en .
+
+psc:controllerCompany
+    a owl:ObjectProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range psc:Company ;
+    rdfs:label "controller company"@en .
+
+psc:controlledCompany
+    a owl:ObjectProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range psc:Company ;
+    rdfs:label "controlled company"@en .
+
+psc:hasNatureOfControl
+    a owl:ObjectProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range skos:Concept ;
+    rdfs:label "has nature of control"@en .
+
+psc:hasGroupRoot
+    a owl:ObjectProperty ;
+    rdfs:domain psc:CorporateGroup ;
+    rdfs:range psc:Company ;
+    rdfs:label "has group root"@en .
+
+psc:directlyControls
+    a owl:ObjectProperty ;
+    owl:inverseOf psc:directlyControlledBy ;
+    rdfs:domain psc:Company ;
+    rdfs:range psc:Company ;
+    rdfs:label "directly controls"@en .
+
+psc:directlyControlledBy
+    a owl:ObjectProperty ;
+    rdfs:domain psc:Company ;
+    rdfs:range psc:Company ;
+    rdfs:label "directly controlled by"@en .
+
+psc:controls
+    a owl:ObjectProperty ;
+    owl:inverseOf psc:ultimatelyControlledBy ;
+    rdfs:domain psc:Company ;
+    rdfs:range psc:Company ;
+    rdfs:label "controls directly or indirectly"@en .
+
+psc:ultimatelyControlledBy
+    a owl:ObjectProperty ;
+    rdfs:domain psc:Company ;
+    rdfs:range psc:Company ;
+    rdfs:label "ultimately controlled by"@en .
+
+psc:memberOfGroup
+    a owl:ObjectProperty ;
+    rdfs:domain psc:Company ;
+    rdfs:range psc:CorporateGroup ;
+    rdfs:label "member of group"@en .
+
+psc:companyNumber
+    a owl:DatatypeProperty, owl:FunctionalProperty ;
+    rdfs:domain psc:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "company number"@en .
+
+psc:reportedControllerName
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:string ;
+    rdfs:label "reported controller name"@en .
+
+psc:reportedControllerLegalForm
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:string ;
+    rdfs:label "reported controller legal form"@en .
+
+psc:reportedControllerLegalAuthority
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:string ;
+    rdfs:label "reported controller legal authority"@en .
+
+psc:reportedControllerCountryRegistered
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:string ;
+    rdfs:label "reported controller country registered"@en .
+
+psc:reportedControllerPlaceRegistered
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:string ;
+    rdfs:label "reported controller place registered"@en .
+
+psc:notifiedOn
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:date ;
+    rdfs:label "notified on"@en .
+
+psc:ceasedOn
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:date ;
+    rdfs:label "ceased on"@en .
+
+psc:ceased
+    a owl:DatatypeProperty, owl:FunctionalProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "ceased"@en .
+
+psc:sourceETag
+    a owl:DatatypeProperty ;
+    rdfs:domain psc:CorporateEntityPSCNotification ;
+    rdfs:range xsd:string ;
+    rdfs:label "source ETag"@en .

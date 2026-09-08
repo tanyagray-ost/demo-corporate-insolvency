@@ -1,0 +1,184 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix noc: <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control>
+    a skos:ConceptScheme ;
+    dcterms:title "Companies House corporate PSC nature-of-control vocabulary"@en ;
+    dcterms:description
+        "Concepts observed in the Carillion corporate PSC ownership extract, preserving Companies House source codes as SKOS notations."@en ;
+    dcterms:modified "2026-09-07"^^xsd:date ;
+    skos:hasTopConcept
+        noc:appointment-rights,
+        noc:ownership-of-shares,
+        noc:significant-influence-or-control-category,
+        noc:surplus-asset-rights,
+        noc:voting-rights .
+
+noc:ownership-of-shares
+    a skos:Concept ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:prefLabel "Ownership of shares"@en ;
+    skos:topConceptOf
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> .
+
+noc:voting-rights
+    a skos:Concept ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:prefLabel "Voting rights"@en ;
+    skos:topConceptOf
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> .
+
+noc:appointment-rights
+    a skos:Concept ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:prefLabel "Appointment and removal rights"@en ;
+    skos:topConceptOf
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> .
+
+noc:surplus-asset-rights
+    a skos:Concept ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:prefLabel "Rights to share surplus assets"@en ;
+    skos:topConceptOf
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> .
+
+noc:significant-influence-or-control-category
+    a skos:Concept ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:prefLabel "Significant influence or control"@en ;
+    skos:topConceptOf
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> .
+
+noc:ownership-of-shares-25-to-50-percent
+    a skos:Concept ;
+    skos:broader noc:ownership-of-shares ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "ownership-of-shares-25-to-50-percent" ;
+    skos:prefLabel "Ownership of shares: 25% to 50%"@en .
+
+noc:ownership-of-shares-50-to-75-percent
+    a skos:Concept ;
+    skos:broader noc:ownership-of-shares ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "ownership-of-shares-50-to-75-percent" ;
+    skos:prefLabel "Ownership of shares: 50% to 75%"@en .
+
+noc:ownership-of-shares-75-to-100-percent
+    a skos:Concept ;
+    skos:broader noc:ownership-of-shares ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "ownership-of-shares-75-to-100-percent" ;
+    skos:prefLabel "Ownership of shares: 75% to 100%"@en .
+
+noc:voting-rights-25-to-50-percent
+    a skos:Concept ;
+    skos:broader noc:voting-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "voting-rights-25-to-50-percent" ;
+    skos:prefLabel "Voting rights: 25% to 50%"@en .
+
+noc:voting-rights-50-to-75-percent
+    a skos:Concept ;
+    skos:broader noc:voting-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "voting-rights-50-to-75-percent" ;
+    skos:prefLabel "Voting rights: 50% to 75%"@en .
+
+noc:voting-rights-75-to-100-percent
+    a skos:Concept ;
+    skos:broader noc:voting-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "voting-rights-75-to-100-percent" ;
+    skos:prefLabel "Voting rights: 75% to 100%"@en .
+
+noc:voting-rights-25-to-50-percent-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:voting-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "voting-rights-25-to-50-percent-limited-liability-partnership" ;
+    skos:prefLabel "LLP voting rights: 25% to 50%"@en .
+
+noc:voting-rights-50-to-75-percent-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:voting-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "voting-rights-50-to-75-percent-limited-liability-partnership" ;
+    skos:prefLabel "LLP voting rights: 50% to 75%"@en .
+
+noc:voting-rights-75-to-100-percent-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:voting-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "voting-rights-75-to-100-percent-limited-liability-partnership" ;
+    skos:prefLabel "LLP voting rights: 75% to 100%"@en .
+
+noc:right-to-appoint-and-remove-directors
+    a skos:Concept ;
+    skos:broader noc:appointment-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "right-to-appoint-and-remove-directors" ;
+    skos:prefLabel "Right to appoint and remove directors"@en .
+
+noc:right-to-appoint-and-remove-members-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:appointment-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "right-to-appoint-and-remove-members-limited-liability-partnership" ;
+    skos:prefLabel "Right to appoint and remove LLP members"@en .
+
+noc:right-to-share-surplus-assets-25-to-50-percent-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:surplus-asset-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "right-to-share-surplus-assets-25-to-50-percent-limited-liability-partnership" ;
+    skos:prefLabel "Right to share LLP surplus assets: 25% to 50%"@en .
+
+noc:right-to-share-surplus-assets-50-to-75-percent-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:surplus-asset-rights ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "right-to-share-surplus-assets-50-to-75-percent-limited-liability-partnership" ;
+    skos:prefLabel "Right to share LLP surplus assets: 50% to 75%"@en .
+
+noc:significant-influence-or-control
+    a skos:Concept ;
+    skos:broader noc:significant-influence-or-control-category ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation "significant-influence-or-control" ;
+    skos:prefLabel "Significant influence or control"@en .
+
+noc:significant-influence-or-control-limited-liability-partnership
+    a skos:Concept ;
+    skos:broader noc:significant-influence-or-control-category ;
+    skos:inScheme
+        <https://w3id.org/rdfox-project-x-demo/vocab/nature-of-control> ;
+    skos:notation
+        "significant-influence-or-control-limited-liability-partnership" ;
+    skos:prefLabel "Significant influence or control over an LLP"@en .

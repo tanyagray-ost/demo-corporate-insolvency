@@ -1,0 +1,60 @@
+@prefix psc: <https://w3id.org/rdfox-project-x-demo/ontology/psc#> .
+@prefix supply: <https://w3id.org/rdfox-project-x-demo/ontology/supply#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/rdfox-project-x-demo/resource/company/00077628> a psc:Company ;
+    psc:companyNumber "00077628" ;
+    supply:companyName "Carillion JM Limited" .
+
+<https://w3id.org/rdfox-project-x-demo/resource/company/00395826> a psc:Company ;
+    psc:companyNumber "00395826" ;
+    supply:companyName "Balfour Beatty plc" .
+
+<https://w3id.org/rdfox-project-x-demo/resource/company/00594581> a psc:Company ;
+    psc:companyNumber "00594581" ;
+    supply:companyName "Carillion Construction Limited" .
+
+<https://w3id.org/rdfox-project-x-demo/resource/company/00824821> a psc:Company ;
+    psc:companyNumber "00824821" ;
+    supply:companyName "Travis Perkins plc" .
+
+<https://w3id.org/rdfox-project-x-demo/resource/company/SYN90001> a psc:Company ;
+    psc:companyNumber "SYN90001" ;
+    supply:companyName "Northbridge Infrastructure Services Limited" .
+
+<https://w3id.org/rdfox-project-x-demo/resource/supplier-relationship/SUP-001> a supply:SupplierRelationship ;
+    supply:customer <https://w3id.org/rdfox-project-x-demo/resource/company/SYN90001> ;
+    supply:supplier <https://w3id.org/rdfox-project-x-demo/resource/company/00594581> ;
+    supply:supplierReferenceType "companies-house-company-number" ;
+    supply:supplyCategory "construction services" ;
+    supply:relationshipStatus "current" ;
+    supply:validFrom "2016-01-15"^^xsd:date ;
+    supply:synthetic true .
+
+<https://w3id.org/rdfox-project-x-demo/resource/supplier-relationship/SUP-002> a supply:SupplierRelationship ;
+    supply:customer <https://w3id.org/rdfox-project-x-demo/resource/company/SYN90001> ;
+    supply:supplier <https://w3id.org/rdfox-project-x-demo/resource/company/00077628> ;
+    supply:supplierReferenceType "companies-house-company-number" ;
+    supply:supplyCategory "facilities management" ;
+    supply:relationshipStatus "current" ;
+    supply:validFrom "2016-06-01"^^xsd:date ;
+    supply:synthetic true .
+
+<https://w3id.org/rdfox-project-x-demo/resource/supplier-relationship/SUP-003> a supply:SupplierRelationship ;
+    supply:customer <https://w3id.org/rdfox-project-x-demo/resource/company/SYN90001> ;
+    supply:supplier <https://w3id.org/rdfox-project-x-demo/resource/company/00395826> ;
+    supply:supplierReferenceType "companies-house-company-number" ;
+    supply:supplyCategory "construction services" ;
+    supply:relationshipStatus "current" ;
+    supply:validFrom "2024-03-10"^^xsd:date ;
+    supply:synthetic true .
+
+<https://w3id.org/rdfox-project-x-demo/resource/supplier-relationship/SUP-004> a supply:SupplierRelationship ;
+    supply:customer <https://w3id.org/rdfox-project-x-demo/resource/company/SYN90001> ;
+    supply:supplier <https://w3id.org/rdfox-project-x-demo/resource/company/00824821> ;
+    supply:supplierReferenceType "companies-house-company-number" ;
+    supply:supplyCategory "building materials" ;
+    supply:relationshipStatus "current" ;
+    supply:validFrom "2025-02-01"^^xsd:date ;
+    supply:synthetic true .
+

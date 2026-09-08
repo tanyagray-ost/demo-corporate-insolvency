@@ -1,0 +1,213 @@
+PREFIX gaz: <https://www.thegazette.co.uk/def/publication#>
+PREFIX gazorg: <https://www.thegazette.co.uk/def/organisation#>
+PREFIX insolvency: <https://www.thegazette.co.uk/def/insolvency#>
+
+SELECT DISTINCT
+  ?notice
+  ?noticeType
+  ?noticeCode
+  ?publicationDate
+  ?companyNumber
+  ?companyName
+WHERE {
+  # The 142-company current group inferred from active corporate PSC
+  # notifications in the 2026-09-07 Companies House snapshot. The list
+  # includes Carillion plc (03782379).
+  VALUES ?targetCompanyNumber {
+    "00077628"
+    "00156617"
+    "00159414"
+    "00199835"
+    "00247624"
+    "00303453"
+    "00309997"
+    "00326348"
+    "00349002"
+    "00369692"
+    "00398443"
+    "00416147"
+    "00531085"
+    "00537677"
+    "00551186"
+    "00566465"
+    "00594581"
+    "00662675"
+    "00680231"
+    "00728599"
+    "00737307"
+    "00775010"
+    "00881324"
+    "00883233"
+    "00885404"
+    "00961738"
+    "01052014"
+    "01122105"
+    "01122808"
+    "01123611"
+    "01180475"
+    "01270381"
+    "01273373"
+    "01294261"
+    "01367044"
+    "01401298"
+    "01417540"
+    "01449086"
+    "01505628"
+    "01521006"
+    "01528870"
+    "01577583"
+    "01685693"
+    "01686252"
+    "01752119"
+    "01808326"
+    "01947809"
+    "02023634"
+    "02063449"
+    "02112970"
+    "02191494"
+    "02294384"
+    "02319285"
+    "02355338"
+    "02404092"
+    "02489314"
+    "02508579"
+    "02519780"
+    "02556935"
+    "02574792"
+    "02574820"
+    "02630590"
+    "02646690"
+    "02684154"
+    "02811168"
+    "02836739"
+    "02840336"
+    "02916489"
+    "02969358"
+    "02995364"
+    "02995513"
+    "02997859"
+    "03011791"
+    "03105686"
+    "03126198"
+    "03130297"
+    "03198709"
+    "03232308"
+    "03256112"
+    "03392601"
+    "03485972"
+    "03679838"
+    "03782379"
+    "03783014"
+    "03783019"
+    "03787277"
+    "03858865"
+    "03902700"
+    "03902730"
+    "04322876"
+    "04364773"
+    "04448876"
+    "04698269"
+    "04996458"
+    "05052745"
+    "05325813"
+    "05380578"
+    "05501004"
+    "05704064"
+    "05704083"
+    "05704108"
+    "05704135"
+    "05704172"
+    "05704254"
+    "05753751"
+    "05753809"
+    "05754891"
+    "05769391"
+    "05769525"
+    "06190456"
+    "06607841"
+    "06820088"
+    "06910378"
+    "07251289"
+    "08404799"
+    "08684413"
+    "08684467"
+    "08705990"
+    "08747138"
+    "08751752"
+    "09203709"
+    "09598495"
+    "09598536"
+    "09684392"
+    "09693421"
+    "09822736"
+    "09822818"
+    "09822833"
+    "09961994"
+    "10546542"
+    "10556292"
+    "10757831"
+    "11273459"
+    "NI016109"
+    "NI040904"
+    "OC307955"
+    "SC014842"
+    "SC020258"
+    "SC023190"
+    "SC083991"
+    "SC102827"
+    "SC203910"
+  }
+
+  # Corporate insolvency notice codes defined by The Gazette:
+  # https://www.thegazette.co.uk/noticecodes
+  VALUES ?noticeCode {
+    # General corporate insolvency
+    2401 2402 2403 2404 2405 2406 2407 2408 2409
+
+    # Administration
+    2410 2411 2412 2413 2414
+
+    # Receivership
+    2421 2422 2423 2424
+
+    # Members' voluntary winding up
+    2431 2432 2433 2434 2435
+
+    # Creditors' voluntary winding up
+    2441 2442 2443 2444 2445 2446 2447
+
+    # Winding up by the court
+    2450 2451 2452 2453 2454 2455 2456 2457
+    2458 2459 2460 2461 2462 2463 2464 2465
+  }
+
+  BIND (
+    IRI(
+      CONCAT(
+        "http://business.data.gov.uk/id/company/",
+        ?targetCompanyNumber
+      )
+    )
+    AS ?company
+  )
+
+  ?notice
+    a gaz:Notice, ?noticeType ;
+    gaz:isAbout ?matter ;
+    gaz:hasNoticeCode ?noticeCode ;
+    gaz:hasPublicationDate ?publicationDate .
+
+  ?matter insolvency:hasCompany ?company .
+
+  ?company
+    gazorg:companyNumber ?companyNumber ;
+    gazorg:name ?companyName .
+
+  FILTER (
+    STRSTARTS(
+      STR(?noticeType),
+      "https://www.thegazette.co.uk/def/insolvency#"
+    )
+  )
+}
+ORDER BY ?companyNumber DESC(?publicationDate)

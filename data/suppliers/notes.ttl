@@ -1,0 +1,10 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<https://www.thegazette.co.uk/def/publication#> .
+@prefix ns2:	<https://www.thegazette.co.uk/def/insolvency#> .
+@prefix ns157:	<https://www.thegazette.co.uk/def/organisation#> .
+@prefix ns3:	<https://www.thegazette.co.uk/id/notice/4237126#> .
+<https://www.thegazette.co.uk/id/notice/4237126>	ns1:isAbout	ns3:notifiableThing ;
+	ns1:hasNoticeCode	2441 .
+ns3:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08747138> .
+<http://business.data.gov.uk/id/company/08747138>	ns157:companyNumber	"08747138" ;
+	ns157:name	"THE HOSPITAL COMPANY (LIVERPOOL) LIMITED" .

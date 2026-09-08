@@ -1,0 +1,17 @@
+{
+  "name": "demo-corp-insolvency-presentation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.7.0",
+    "@slidev/theme-default": "latest"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}

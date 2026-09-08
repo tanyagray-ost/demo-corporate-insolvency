@@ -1,0 +1,12 @@
+# Run from the rdfox-project-x-demo directory in a fresh RDFox server.
+dstore create carillion
+active carillion
+
+import "data/companies-house/psc/psc-ontology.ttl"
+import "data/companies-house/psc/nature-of-control-vocab.ttl"
+import "data/companies-house/psc/carillion-psc-ownership.ttl"
+import "data/companies-house/psc/carillion-group-root.ttl"
+import "data/companies-house/psc/corporate-group-rules.dlog"
+
+info rulestats
+answer "data/companies-house/psc/carillion-group.rq"

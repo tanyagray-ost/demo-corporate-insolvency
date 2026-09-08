@@ -1,0 +1,38 @@
+@prefix psc: <https://w3id.org/rdfox-project-x-demo/ontology/psc#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# A non-ceased corporate PSC notification establishes current direct control.
+[?controller, psc:directlyControls, ?controlled] :-
+    [?event, rdf:type, psc:CorporateEntityPSCNotification],
+    [?event, psc:controllerCompany, ?controller],
+    [?event, psc:controlledCompany, ?controlled],
+    [?event, psc:ceased, "false"^^xsd:boolean],
+    FILTER(?controller != ?controlled) .
+
+# Materialize the transitive closure of current corporate control.
+[?controller, psc:controls, ?controlled] :-
+    [?controller, psc:directlyControls, ?controlled] .
+
+[?controller, psc:controls, ?descendant] :-
+    [?controller, psc:directlyControls, ?intermediate],
+    [?intermediate, psc:controls, ?descendant],
+    FILTER(?controller != ?descendant) .
+
+# A configured root and all companies it controls belong to the same group.
+[?root, psc:memberOfGroup, ?group] :-
+    [?group, psc:hasGroupRoot, ?root] .
+
+[?company, psc:memberOfGroup, ?group] :-
+    [?group, psc:hasGroupRoot, ?root],
+    [?root, psc:controls, ?company] .
+
+# Materialize the inverse relation for subsidiary-oriented queries.
+[?company, psc:directlyControlledBy, ?controller] :-
+    [?controller, psc:directlyControls, ?company] .
+
+# Ultimate control is relative to a configured group root, not every
+# intermediate controller in the transitive chain.
+[?company, psc:ultimatelyControlledBy, ?root] :-
+    [?group, psc:hasGroupRoot, ?root],
+    [?root, psc:controls, ?company] .
