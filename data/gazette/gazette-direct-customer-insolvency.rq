@@ -1,0 +1,43 @@
+PREFIX gaz: <https://www.thegazette.co.uk/def/publication#>
+PREFIX gazorg: <https://www.thegazette.co.uk/def/organisation#>
+PREFIX insolvency: <https://www.thegazette.co.uk/def/insolvency#>
+
+SELECT DISTINCT
+  ?notice
+  ?noticeType
+  ?noticeCode
+  ?publicationDate
+  ?companyNumber
+  ?companyName
+WHERE {
+  # Four supplier numbers followed by the distinct parent company number
+  # recorded in the Companies House PSC data.
+  VALUES ?targetCompanyNumber {
+    "00594581"
+    "00077628"
+    "00395826"
+    "00824821"
+    "03782379"
+  }
+
+  ?notice
+    a gaz:Notice, ?noticeType ;
+    gaz:isAbout ?matter ;
+    gaz:hasNoticeCode ?noticeCode ;
+    gaz:hasPublicationDate ?publicationDate .
+
+  ?matter insolvency:hasCompany ?company .
+
+  ?company
+    gazorg:companyNumber ?companyNumber ;
+    gazorg:name ?companyName .
+
+  FILTER (STR(?companyNumber) = ?targetCompanyNumber)
+  FILTER (
+    STRSTARTS(
+      STR(?noticeType),
+      "https://www.thegazette.co.uk/def/insolvency#"
+    )
+  )
+}
+ORDER BY ?companyNumber DESC(?publicationDate)

@@ -1,0 +1,1374 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<https://www.thegazette.co.uk/def/publication#> .
+<https://www.thegazette.co.uk/id/notice/4237126>	rdf:type	ns1:Notice .
+@prefix ns2:	<https://www.thegazette.co.uk/def/insolvency#> .
+<https://www.thegazette.co.uk/id/notice/4237126>	rdf:type	ns2:CreditorsResolutionsForWindingUpNotice .
+@prefix ns3:	<https://www.thegazette.co.uk/id/notice/4237126#> .
+<https://www.thegazette.co.uk/id/notice/4237126>	ns1:isAbout	ns3:notifiableThing ;
+	ns1:hasNoticeCode	2441 .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<https://www.thegazette.co.uk/id/notice/4237126>	ns1:hasPublicationDate	"2022-12-13T17:35:13"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/4237127>	rdf:type	ns2:CreditorsAppointmentOfLiquidatorsNotice ,
+		ns1:Notice .
+@prefix ns5:	<https://www.thegazette.co.uk/id/notice/4237127#> .
+<https://www.thegazette.co.uk/id/notice/4237127>	ns1:isAbout	ns5:notifiableThing ;
+	ns1:hasNoticeCode	2443 ;
+	ns1:hasPublicationDate	"2022-12-13T17:35:14"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2948343>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns6:	<https://www.thegazette.co.uk/id/notice/2948343#> .
+<https://www.thegazette.co.uk/id/notice/2948343>	ns1:isAbout	ns6:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-01-19T10:20:30"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086766>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns7:	<https://www.thegazette.co.uk/id/notice/3086766#> .
+<https://www.thegazette.co.uk/id/notice/3086766>	ns1:isAbout	ns7:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:23:06"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086758>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns8:	<https://www.thegazette.co.uk/id/notice/3086758#> .
+<https://www.thegazette.co.uk/id/notice/3086758>	ns1:isAbout	ns8:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:22:25"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974375>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns9:	<https://www.thegazette.co.uk/id/notice/2974375#> .
+<https://www.thegazette.co.uk/id/notice/2974375>	ns1:isAbout	ns9:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:31:55"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2975108>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns10:	<https://www.thegazette.co.uk/id/notice/2975108#> .
+<https://www.thegazette.co.uk/id/notice/2975108>	ns1:isAbout	ns10:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-26T08:00:59"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049107>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns11:	<https://www.thegazette.co.uk/id/notice/3049107#> .
+<https://www.thegazette.co.uk/id/notice/3049107>	ns1:isAbout	ns11:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:46"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3057215>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns12:	<https://www.thegazette.co.uk/id/notice/3057215#> .
+<https://www.thegazette.co.uk/id/notice/3057215>	ns1:isAbout	ns12:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-03T09:00:58"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086760>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns13:	<https://www.thegazette.co.uk/id/notice/3086760#> .
+<https://www.thegazette.co.uk/id/notice/3086760>	ns1:isAbout	ns13:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:22:36"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2948342>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns14:	<https://www.thegazette.co.uk/id/notice/2948342#> .
+<https://www.thegazette.co.uk/id/notice/2948342>	ns1:isAbout	ns14:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-01-19T10:20:24"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974371>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns15:	<https://www.thegazette.co.uk/id/notice/2974371#> .
+<https://www.thegazette.co.uk/id/notice/2974371>	ns1:isAbout	ns15:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:31:38"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3158286>	rdf:type	ns1:Notice ,
+		ns2:AppointmentOfAdministrativeReceiversNotice .
+@prefix ns16:	<https://www.thegazette.co.uk/id/notice/3158286#> .
+<https://www.thegazette.co.uk/id/notice/3158286>	ns1:isAbout	ns16:notifiableThing ;
+	ns1:hasNoticeCode	2421 ;
+	ns1:hasPublicationDate	"2018-11-26T01:01:47"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3158287>	rdf:type	ns1:Notice ,
+		ns2:AppointmentOfAdministrativeReceiversNotice .
+@prefix ns17:	<https://www.thegazette.co.uk/id/notice/3158287#> .
+<https://www.thegazette.co.uk/id/notice/3158287>	ns1:isAbout	ns17:notifiableThing ;
+	ns1:hasNoticeCode	2421 ;
+	ns1:hasPublicationDate	"2018-11-26T01:01:54"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974382>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns18:	<https://www.thegazette.co.uk/id/notice/2974382#> .
+<https://www.thegazette.co.uk/id/notice/2974382>	ns1:isAbout	ns18:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:32:35"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049104>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns19:	<https://www.thegazette.co.uk/id/notice/3049104#> .
+<https://www.thegazette.co.uk/id/notice/3049104>	ns1:isAbout	ns19:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:31"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3255956>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns20:	<https://www.thegazette.co.uk/id/notice/3255956#> .
+<https://www.thegazette.co.uk/id/notice/3255956>	ns1:isAbout	ns20:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-04-16T12:11:41"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974390>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns21:	<https://www.thegazette.co.uk/id/notice/2974390#> .
+<https://www.thegazette.co.uk/id/notice/2974390>	ns1:isAbout	ns21:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:33:15"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3040419>	rdf:type	ns2:MembersAppointmentOfLiquidatorsNotice ,
+		ns1:Notice .
+@prefix ns22:	<https://www.thegazette.co.uk/id/notice/3040419#> .
+<https://www.thegazette.co.uk/id/notice/3040419>	ns1:isAbout	ns22:notifiableThing ;
+	ns1:hasNoticeCode	2432 ;
+	ns1:hasPublicationDate	"2018-06-04T17:42:35"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049103>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns23:	<https://www.thegazette.co.uk/id/notice/3049103#> .
+<https://www.thegazette.co.uk/id/notice/3049103>	ns1:isAbout	ns23:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:26"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086757>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns24:	<https://www.thegazette.co.uk/id/notice/3086757#> .
+<https://www.thegazette.co.uk/id/notice/3086757>	ns1:isAbout	ns24:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:22:20"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3116517>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns25:	<https://www.thegazette.co.uk/id/notice/3116517#> .
+<https://www.thegazette.co.uk/id/notice/3116517>	ns1:isAbout	ns25:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-09-27T09:55:50"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3198098>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns26:	<https://www.thegazette.co.uk/id/notice/3198098#> .
+<https://www.thegazette.co.uk/id/notice/3198098>	ns1:isAbout	ns26:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-01-31T09:12:12"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957273>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns27:	<https://www.thegazette.co.uk/id/notice/2957273#> .
+<https://www.thegazette.co.uk/id/notice/2957273>	ns1:isAbout	ns27:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:25:04"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957278>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns28:	<https://www.thegazette.co.uk/id/notice/2957278#> .
+<https://www.thegazette.co.uk/id/notice/2957278>	ns1:isAbout	ns28:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:25:49"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3104622>	rdf:type	ns2:CreditorsMeetingsOfCreditorsNotice ,
+		ns1:Notice .
+@prefix ns29:	<https://www.thegazette.co.uk/id/notice/3104622#> .
+<https://www.thegazette.co.uk/id/notice/3104622>	ns1:isAbout	ns29:notifiableThing ;
+	ns1:hasNoticeCode	2442 ;
+	ns1:hasPublicationDate	"2018-09-07T17:11:15"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2948340>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns30:	<https://www.thegazette.co.uk/id/notice/2948340#> .
+<https://www.thegazette.co.uk/id/notice/2948340>	ns1:isAbout	ns30:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-01-19T10:20:09"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049106>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns31:	<https://www.thegazette.co.uk/id/notice/3049106#> .
+<https://www.thegazette.co.uk/id/notice/3049106>	ns1:isAbout	ns31:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:41"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957280>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns32:	<https://www.thegazette.co.uk/id/notice/2957280#> .
+<https://www.thegazette.co.uk/id/notice/2957280>	ns1:isAbout	ns32:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:26:00"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2948341>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns33:	<https://www.thegazette.co.uk/id/notice/2948341#> .
+<https://www.thegazette.co.uk/id/notice/2948341>	ns1:isAbout	ns33:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-01-19T10:20:15"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049095>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns34:	<https://www.thegazette.co.uk/id/notice/3049095#> .
+<https://www.thegazette.co.uk/id/notice/3049095>	ns1:isAbout	ns34:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:30:45"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2961682>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns35:	<https://www.thegazette.co.uk/id/notice/2961682#> .
+<https://www.thegazette.co.uk/id/notice/2961682>	ns1:isAbout	ns35:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-02-02T15:30:46"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065191>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns36:	<https://www.thegazette.co.uk/id/notice/3065191#> .
+<https://www.thegazette.co.uk/id/notice/3065191>	ns1:isAbout	ns36:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:22"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3150797>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns37:	<https://www.thegazette.co.uk/id/notice/3150797#> .
+<https://www.thegazette.co.uk/id/notice/3150797>	ns1:isAbout	ns37:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-11-13T12:14:50"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049097>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns38:	<https://www.thegazette.co.uk/id/notice/3049097#> .
+<https://www.thegazette.co.uk/id/notice/3049097>	ns1:isAbout	ns38:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:30:55"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3136124>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns39:	<https://www.thegazette.co.uk/id/notice/3136124#> .
+<https://www.thegazette.co.uk/id/notice/3136124>	ns1:isAbout	ns39:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-23T11:51:28"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3140691>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns40:	<https://www.thegazette.co.uk/id/notice/3140691#> .
+<https://www.thegazette.co.uk/id/notice/3140691>	ns1:isAbout	ns40:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-31T10:10:39"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3031873>	rdf:type	ns2:CourtMeetingsOfCreditorsNotice ,
+		ns1:Notice .
+@prefix ns41:	<https://www.thegazette.co.uk/id/notice/3031873#> .
+<https://www.thegazette.co.uk/id/notice/3031873>	ns1:isAbout	ns41:notifiableThing ;
+	ns1:hasNoticeCode	2455 ;
+	ns1:hasPublicationDate	"2018-05-21T17:34:34"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3031874>	rdf:type	ns2:CourtMeetingsOfCreditorsNotice ,
+		ns1:Notice .
+@prefix ns42:	<https://www.thegazette.co.uk/id/notice/3031874#> .
+<https://www.thegazette.co.uk/id/notice/3031874>	ns1:isAbout	ns42:notifiableThing ;
+	ns1:hasNoticeCode	2455 ;
+	ns1:hasPublicationDate	"2018-05-21T17:34:38"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3099878>	rdf:type	ns1:Notice ,
+		ns2:CourtAppointmentOfLiquidatorsNotice .
+@prefix ns43:	<https://www.thegazette.co.uk/id/notice/3099878#> .
+<https://www.thegazette.co.uk/id/notice/3099878>	ns1:isAbout	ns43:notifiableThing ;
+	ns1:hasNoticeCode	2454 ;
+	ns1:hasPublicationDate	"2018-08-31T17:42:08"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3117563>	rdf:type	ns2:CreditorsResolutionsForWindingUpNotice ,
+		ns1:Notice .
+@prefix ns44:	<https://www.thegazette.co.uk/id/notice/3117563#> .
+<https://www.thegazette.co.uk/id/notice/3117563>	ns1:isAbout	ns44:notifiableThing ;
+	ns1:hasNoticeCode	2441 ;
+	ns1:hasPublicationDate	"2018-09-26T18:02:23"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957271>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns45:	<https://www.thegazette.co.uk/id/notice/2957271#> .
+<https://www.thegazette.co.uk/id/notice/2957271>	ns1:isAbout	ns45:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:24:55"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3045300>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns46:	<https://www.thegazette.co.uk/id/notice/3045300#> .
+<https://www.thegazette.co.uk/id/notice/3045300>	ns1:isAbout	ns46:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-13T10:33:37"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3117562>	rdf:type	ns2:CreditorsAppointmentOfLiquidatorsNotice ,
+		ns1:Notice .
+@prefix ns47:	<https://www.thegazette.co.uk/id/notice/3117562#> .
+<https://www.thegazette.co.uk/id/notice/3117562>	ns1:isAbout	ns47:notifiableThing ;
+	ns1:hasNoticeCode	2443 ;
+	ns1:hasPublicationDate	"2018-09-26T18:02:19"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3136123>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns48:	<https://www.thegazette.co.uk/id/notice/3136123#> .
+<https://www.thegazette.co.uk/id/notice/3136123>	ns1:isAbout	ns48:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-23T11:51:23"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3017741>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns49:	<https://www.thegazette.co.uk/id/notice/3017741#> .
+<https://www.thegazette.co.uk/id/notice/3017741>	ns1:isAbout	ns49:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-05-01T12:54:28"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086734>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns50:	<https://www.thegazette.co.uk/id/notice/3086734#> .
+<https://www.thegazette.co.uk/id/notice/3086734>	ns1:isAbout	ns50:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:20:23"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3007226>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns51:	<https://www.thegazette.co.uk/id/notice/3007226#> .
+<https://www.thegazette.co.uk/id/notice/3007226>	ns1:isAbout	ns51:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-04-12T12:01:22"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029503>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns52:	<https://www.thegazette.co.uk/id/notice/3029503#> .
+<https://www.thegazette.co.uk/id/notice/3029503>	ns1:isAbout	ns52:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:03:05"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3120878>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns53:	<https://www.thegazette.co.uk/id/notice/3120878#> .
+<https://www.thegazette.co.uk/id/notice/3120878>	ns1:isAbout	ns53:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-10-01T13:30:25"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029502>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns54:	<https://www.thegazette.co.uk/id/notice/3029502#> .
+<https://www.thegazette.co.uk/id/notice/3029502>	ns1:isAbout	ns54:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:02:56"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3030125>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns55:	<https://www.thegazette.co.uk/id/notice/3030125#> .
+<https://www.thegazette.co.uk/id/notice/3030125>	ns1:isAbout	ns55:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T17:00:32"^^xsd:dateTime .
+@prefix ns56:	<https://www.thegazette.co.uk/id/notice/3649750#> .
+ns56:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03105686> .
+<https://www.thegazette.co.uk/id/notice/2974368>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns57:	<https://www.thegazette.co.uk/id/notice/2974368#> .
+<https://www.thegazette.co.uk/id/notice/2974368>	ns1:isAbout	ns57:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:31:18"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3239882>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns58:	<https://www.thegazette.co.uk/id/notice/3239882#> .
+<https://www.thegazette.co.uk/id/notice/3239882>	ns1:isAbout	ns58:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-03-27T09:01:23"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974383>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns59:	<https://www.thegazette.co.uk/id/notice/2974383#> .
+<https://www.thegazette.co.uk/id/notice/2974383>	ns1:isAbout	ns59:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:32:40"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974387>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns60:	<https://www.thegazette.co.uk/id/notice/2974387#> .
+<https://www.thegazette.co.uk/id/notice/2974387>	ns1:isAbout	ns60:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:33:01"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049105>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns61:	<https://www.thegazette.co.uk/id/notice/3049105#> .
+<https://www.thegazette.co.uk/id/notice/3049105>	ns1:isAbout	ns61:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:36"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3040418>	rdf:type	ns2:MembersNoticeToCreditors ,
+		ns1:Notice .
+@prefix ns62:	<https://www.thegazette.co.uk/id/notice/3040418#> .
+<https://www.thegazette.co.uk/id/notice/3040418>	ns1:isAbout	ns62:notifiableThing ;
+	ns1:hasNoticeCode	2433 ;
+	ns1:hasPublicationDate	"2018-06-04T17:42:29"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3095788>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns63:	<https://www.thegazette.co.uk/id/notice/3095788#> .
+<https://www.thegazette.co.uk/id/notice/3095788>	ns1:isAbout	ns63:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-29T08:41:40"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049129>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns64:	<https://www.thegazette.co.uk/id/notice/3049129#> .
+<https://www.thegazette.co.uk/id/notice/3049129>	ns1:isAbout	ns64:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:33:58"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3136118>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns65:	<https://www.thegazette.co.uk/id/notice/3136118#> .
+<https://www.thegazette.co.uk/id/notice/3136118>	ns1:isAbout	ns65:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-23T11:50:55"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3395688>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns66:	<https://www.thegazette.co.uk/id/notice/3395688#> .
+<https://www.thegazette.co.uk/id/notice/3395688>	ns1:isAbout	ns66:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-10-02T08:51:54"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049098>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns67:	<https://www.thegazette.co.uk/id/notice/3049098#> .
+<https://www.thegazette.co.uk/id/notice/3049098>	ns1:isAbout	ns67:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:00"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086762>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns68:	<https://www.thegazette.co.uk/id/notice/3086762#> .
+<https://www.thegazette.co.uk/id/notice/3086762>	ns1:isAbout	ns68:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:22:47"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3255961>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns69:	<https://www.thegazette.co.uk/id/notice/3255961#> .
+<https://www.thegazette.co.uk/id/notice/3255961>	ns1:isAbout	ns69:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-04-16T12:12:17"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029505>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns70:	<https://www.thegazette.co.uk/id/notice/3029505#> .
+<https://www.thegazette.co.uk/id/notice/3029505>	ns1:isAbout	ns70:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:03:39"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044771>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns71:	<https://www.thegazette.co.uk/id/notice/3044771#> .
+<https://www.thegazette.co.uk/id/notice/3044771>	ns1:isAbout	ns71:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:51:43"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065188>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns72:	<https://www.thegazette.co.uk/id/notice/3065188#> .
+<https://www.thegazette.co.uk/id/notice/3065188>	ns1:isAbout	ns72:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:09"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3224273>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns73:	<https://www.thegazette.co.uk/id/notice/3224273#> .
+<https://www.thegazette.co.uk/id/notice/3224273>	ns1:isAbout	ns73:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2019-03-06T12:00:14"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3007225>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns74:	<https://www.thegazette.co.uk/id/notice/3007225#> .
+<https://www.thegazette.co.uk/id/notice/3007225>	ns1:isAbout	ns74:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-04-12T12:01:17"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029319>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns75:	<https://www.thegazette.co.uk/id/notice/3029319#> .
+<https://www.thegazette.co.uk/id/notice/3029319>	ns1:isAbout	ns75:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:00:14"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029321>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns76:	<https://www.thegazette.co.uk/id/notice/3029321#> .
+<https://www.thegazette.co.uk/id/notice/3029321>	ns1:isAbout	ns76:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:00:29"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029322>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns77:	<https://www.thegazette.co.uk/id/notice/3029322#> .
+<https://www.thegazette.co.uk/id/notice/3029322>	ns1:isAbout	ns77:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:00:37"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3030124>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns78:	<https://www.thegazette.co.uk/id/notice/3030124#> .
+<https://www.thegazette.co.uk/id/notice/3030124>	ns1:isAbout	ns78:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T17:00:25"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044714>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns79:	<https://www.thegazette.co.uk/id/notice/3044714#> .
+<https://www.thegazette.co.uk/id/notice/3044714>	ns1:isAbout	ns79:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:40:03"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044716>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns80:	<https://www.thegazette.co.uk/id/notice/3044716#> .
+<https://www.thegazette.co.uk/id/notice/3044716>	ns1:isAbout	ns80:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:40:12"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065192>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns81:	<https://www.thegazette.co.uk/id/notice/3065192#> .
+<https://www.thegazette.co.uk/id/notice/3065192>	ns1:isAbout	ns81:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:27"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2960701>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns82:	<https://www.thegazette.co.uk/id/notice/2960701#> .
+<https://www.thegazette.co.uk/id/notice/2960701>	ns1:isAbout	ns82:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-05T09:41:02"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086765>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns83:	<https://www.thegazette.co.uk/id/notice/3086765#> .
+<https://www.thegazette.co.uk/id/notice/3086765>	ns1:isAbout	ns83:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:23:02"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3040417>	rdf:type	ns2:MembersResolutionsForWindingUpNotice ,
+		ns1:Notice .
+@prefix ns84:	<https://www.thegazette.co.uk/id/notice/3040417#> .
+<https://www.thegazette.co.uk/id/notice/3040417>	ns1:isAbout	ns84:notifiableThing ;
+	ns1:hasNoticeCode	2431 ;
+	ns1:hasPublicationDate	"2018-06-04T17:42:24"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3091668>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns85:	<https://www.thegazette.co.uk/id/notice/3091668#> .
+<https://www.thegazette.co.uk/id/notice/3091668>	ns1:isAbout	ns85:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-22T11:04:24"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957272>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns86:	<https://www.thegazette.co.uk/id/notice/2957272#> .
+<https://www.thegazette.co.uk/id/notice/2957272>	ns1:isAbout	ns86:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:24:59"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3017717>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns87:	<https://www.thegazette.co.uk/id/notice/3017717#> .
+<https://www.thegazette.co.uk/id/notice/3017717>	ns1:isAbout	ns87:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-05-01T12:52:10"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061711>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns88:	<https://www.thegazette.co.uk/id/notice/3061711#> .
+<https://www.thegazette.co.uk/id/notice/3061711>	ns1:isAbout	ns88:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:31:01"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061721>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns89:	<https://www.thegazette.co.uk/id/notice/3061721#> .
+<https://www.thegazette.co.uk/id/notice/3061721>	ns1:isAbout	ns89:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:32:02"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3189217>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns90:	<https://www.thegazette.co.uk/id/notice/3189217#> .
+<https://www.thegazette.co.uk/id/notice/3189217>	ns1:isAbout	ns90:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-01-18T08:32:11"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957270>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns91:	<https://www.thegazette.co.uk/id/notice/2957270#> .
+<https://www.thegazette.co.uk/id/notice/2957270>	ns1:isAbout	ns91:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:24:31"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957275>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns92:	<https://www.thegazette.co.uk/id/notice/2957275#> .
+<https://www.thegazette.co.uk/id/notice/2957275>	ns1:isAbout	ns92:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:25:23"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086769>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns93:	<https://www.thegazette.co.uk/id/notice/3086769#> .
+<https://www.thegazette.co.uk/id/notice/3086769>	ns1:isAbout	ns93:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:23:23"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3223982>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns94:	<https://www.thegazette.co.uk/id/notice/3223982#> .
+<https://www.thegazette.co.uk/id/notice/3223982>	ns1:isAbout	ns94:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2019-03-05T14:50:13"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3180489>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns95:	<https://www.thegazette.co.uk/id/notice/3180489#> .
+<https://www.thegazette.co.uk/id/notice/3180489>	ns1:isAbout	ns95:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-12-28T21:10:14"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3073388>	rdf:type	ns1:Notice ,
+		ns2:DismissalOfWindingUpPetitionNotice .
+@prefix ns96:	<https://www.thegazette.co.uk/id/notice/3073388#> .
+<https://www.thegazette.co.uk/id/notice/3073388>	ns1:isAbout	ns96:notifiableThing ;
+	ns1:hasNoticeCode	2461 ;
+	ns1:hasPublicationDate	"2018-07-20T15:00:53"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065193>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns97:	<https://www.thegazette.co.uk/id/notice/3065193#> .
+<https://www.thegazette.co.uk/id/notice/3065193>	ns1:isAbout	ns97:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:31"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061726>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns98:	<https://www.thegazette.co.uk/id/notice/3061726#> .
+<https://www.thegazette.co.uk/id/notice/3061726>	ns1:isAbout	ns98:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:32:29"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3171770>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns99:	<https://www.thegazette.co.uk/id/notice/3171770#> .
+<https://www.thegazette.co.uk/id/notice/3171770>	ns1:isAbout	ns99:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-12-18T10:26:06"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029324>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns100:	<https://www.thegazette.co.uk/id/notice/3029324#> .
+<https://www.thegazette.co.uk/id/notice/3029324>	ns1:isAbout	ns100:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:00:52"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029504>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns101:	<https://www.thegazette.co.uk/id/notice/3029504#> .
+<https://www.thegazette.co.uk/id/notice/3029504>	ns1:isAbout	ns101:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:03:24"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3223984>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns102:	<https://www.thegazette.co.uk/id/notice/3223984#> .
+<https://www.thegazette.co.uk/id/notice/3223984>	ns1:isAbout	ns102:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2019-03-05T14:50:25"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3378668>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns103:	<https://www.thegazette.co.uk/id/notice/3378668#> .
+<https://www.thegazette.co.uk/id/notice/3378668>	ns1:isAbout	ns103:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2019-09-03T14:20:16"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957274>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns104:	<https://www.thegazette.co.uk/id/notice/2957274#> .
+<https://www.thegazette.co.uk/id/notice/2957274>	ns1:isAbout	ns104:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:25:09"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3051584>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns105:	<https://www.thegazette.co.uk/id/notice/3051584#> .
+<https://www.thegazette.co.uk/id/notice/3051584>	ns1:isAbout	ns105:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-22T00:12:42"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065189>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns106:	<https://www.thegazette.co.uk/id/notice/3065189#> .
+<https://www.thegazette.co.uk/id/notice/3065189>	ns1:isAbout	ns106:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:13"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065194>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns107:	<https://www.thegazette.co.uk/id/notice/3065194#> .
+<https://www.thegazette.co.uk/id/notice/3065194>	ns1:isAbout	ns107:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:36"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3223983>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns108:	<https://www.thegazette.co.uk/id/notice/3223983#> .
+<https://www.thegazette.co.uk/id/notice/3223983>	ns1:isAbout	ns108:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2019-03-05T14:50:20"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3159635>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns109:	<https://www.thegazette.co.uk/id/notice/3159635#> .
+<https://www.thegazette.co.uk/id/notice/3159635>	ns1:isAbout	ns109:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-11-27T12:09:15"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2957279>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns110:	<https://www.thegazette.co.uk/id/notice/2957279#> .
+<https://www.thegazette.co.uk/id/notice/2957279>	ns1:isAbout	ns110:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-01T12:25:56"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2969962>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns111:	<https://www.thegazette.co.uk/id/notice/2969962#> .
+<https://www.thegazette.co.uk/id/notice/2969962>	ns1:isAbout	ns111:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-16T08:40:39"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974373>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns112:	<https://www.thegazette.co.uk/id/notice/2974373#> .
+<https://www.thegazette.co.uk/id/notice/2974373>	ns1:isAbout	ns112:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:31:49"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3051552>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns113:	<https://www.thegazette.co.uk/id/notice/3051552#> .
+<https://www.thegazette.co.uk/id/notice/3051552>	ns1:isAbout	ns113:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T14:20:17"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3136128>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns114:	<https://www.thegazette.co.uk/id/notice/3136128#> .
+<https://www.thegazette.co.uk/id/notice/3136128>	ns1:isAbout	ns114:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-23T11:51:48"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3140699>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns115:	<https://www.thegazette.co.uk/id/notice/3140699#> .
+<https://www.thegazette.co.uk/id/notice/3140699>	ns1:isAbout	ns115:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-31T10:11:11"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3189202>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns116:	<https://www.thegazette.co.uk/id/notice/3189202#> .
+<https://www.thegazette.co.uk/id/notice/3189202>	ns1:isAbout	ns116:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-01-18T08:30:32"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3239884>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns117:	<https://www.thegazette.co.uk/id/notice/3239884#> .
+<https://www.thegazette.co.uk/id/notice/3239884>	ns1:isAbout	ns117:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2019-03-27T09:01:33"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2974369>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns118:	<https://www.thegazette.co.uk/id/notice/2974369#> .
+<https://www.thegazette.co.uk/id/notice/2974369>	ns1:isAbout	ns118:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-02-23T08:31:25"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061730>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns119:	<https://www.thegazette.co.uk/id/notice/3061730#> .
+<https://www.thegazette.co.uk/id/notice/3061730>	ns1:isAbout	ns119:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:32:50"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049088>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns120:	<https://www.thegazette.co.uk/id/notice/3049088#> .
+<https://www.thegazette.co.uk/id/notice/3049088>	ns1:isAbout	ns120:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:30:03"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3051551>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns121:	<https://www.thegazette.co.uk/id/notice/3051551#> .
+<https://www.thegazette.co.uk/id/notice/3051551>	ns1:isAbout	ns121:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T14:20:11"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3067192>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns122:	<https://www.thegazette.co.uk/id/notice/3067192#> .
+<https://www.thegazette.co.uk/id/notice/3067192>	ns1:isAbout	ns122:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-17T08:22:35"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086733>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns123:	<https://www.thegazette.co.uk/id/notice/3086733#> .
+<https://www.thegazette.co.uk/id/notice/3086733>	ns1:isAbout	ns123:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:20:16"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3030126>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns124:	<https://www.thegazette.co.uk/id/notice/3030126#> .
+<https://www.thegazette.co.uk/id/notice/3030126>	ns1:isAbout	ns124:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T17:00:39"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3030127>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns125:	<https://www.thegazette.co.uk/id/notice/3030127#> .
+<https://www.thegazette.co.uk/id/notice/3030127>	ns1:isAbout	ns125:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T17:00:46"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3120876>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns126:	<https://www.thegazette.co.uk/id/notice/3120876#> .
+<https://www.thegazette.co.uk/id/notice/3120876>	ns1:isAbout	ns126:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-10-01T13:30:12"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3120877>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns127:	<https://www.thegazette.co.uk/id/notice/3120877#> .
+<https://www.thegazette.co.uk/id/notice/3120877>	ns1:isAbout	ns127:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-10-01T13:30:19"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3159647>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns128:	<https://www.thegazette.co.uk/id/notice/3159647#> .
+<https://www.thegazette.co.uk/id/notice/3159647>	ns1:isAbout	ns128:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-11-27T12:10:57"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044768>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns129:	<https://www.thegazette.co.uk/id/notice/3044768#> .
+<https://www.thegazette.co.uk/id/notice/3044768>	ns1:isAbout	ns129:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:51:25"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065190>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns130:	<https://www.thegazette.co.uk/id/notice/3065190#> .
+<https://www.thegazette.co.uk/id/notice/3065190>	ns1:isAbout	ns130:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:18"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2948345>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns131:	<https://www.thegazette.co.uk/id/notice/2948345#> .
+<https://www.thegazette.co.uk/id/notice/2948345>	ns1:isAbout	ns131:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-01-19T10:20:53"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061712>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns132:	<https://www.thegazette.co.uk/id/notice/3061712#> .
+<https://www.thegazette.co.uk/id/notice/3061712>	ns1:isAbout	ns132:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:31:08"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061713>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns133:	<https://www.thegazette.co.uk/id/notice/3061713#> .
+<https://www.thegazette.co.uk/id/notice/3061713>	ns1:isAbout	ns133:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:31:15"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3061724>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns134:	<https://www.thegazette.co.uk/id/notice/3061724#> .
+<https://www.thegazette.co.uk/id/notice/3061724>	ns1:isAbout	ns134:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-07-10T08:32:18"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3115388>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns135:	<https://www.thegazette.co.uk/id/notice/3115388#> .
+<https://www.thegazette.co.uk/id/notice/3115388>	ns1:isAbout	ns135:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-09-26T08:34:27"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3136133>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns136:	<https://www.thegazette.co.uk/id/notice/3136133#> .
+<https://www.thegazette.co.uk/id/notice/3136133>	ns1:isAbout	ns136:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-10-23T11:52:13"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3171775>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns137:	<https://www.thegazette.co.uk/id/notice/3171775#> .
+<https://www.thegazette.co.uk/id/notice/3171775>	ns1:isAbout	ns137:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-12-18T10:26:43"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/2948344>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns138:	<https://www.thegazette.co.uk/id/notice/2948344#> .
+<https://www.thegazette.co.uk/id/notice/2948344>	ns1:isAbout	ns138:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-01-19T10:20:47"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044772>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns139:	<https://www.thegazette.co.uk/id/notice/3044772#> .
+<https://www.thegazette.co.uk/id/notice/3044772>	ns1:isAbout	ns139:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:51:48"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3030123>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns140:	<https://www.thegazette.co.uk/id/notice/3030123#> .
+<https://www.thegazette.co.uk/id/notice/3030123>	ns1:isAbout	ns140:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T17:00:16"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044770>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns141:	<https://www.thegazette.co.uk/id/notice/3044770#> .
+<https://www.thegazette.co.uk/id/notice/3044770>	ns1:isAbout	ns141:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:51:37"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3120882>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns142:	<https://www.thegazette.co.uk/id/notice/3120882#> .
+<https://www.thegazette.co.uk/id/notice/3120882>	ns1:isAbout	ns142:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-10-01T13:30:50"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3044769>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns143:	<https://www.thegazette.co.uk/id/notice/3044769#> .
+<https://www.thegazette.co.uk/id/notice/3044769>	ns1:isAbout	ns143:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-08T12:51:30"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3049101>	rdf:type	ns2:WindingUpOrdersNotice ,
+		ns1:Notice .
+@prefix ns144:	<https://www.thegazette.co.uk/id/notice/3049101#> .
+<https://www.thegazette.co.uk/id/notice/3049101>	ns1:isAbout	ns144:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-06-20T08:31:16"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3086768>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice .
+@prefix ns145:	<https://www.thegazette.co.uk/id/notice/3086768#> .
+<https://www.thegazette.co.uk/id/notice/3086768>	ns1:isAbout	ns145:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2018-08-15T10:23:16"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065196>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns146:	<https://www.thegazette.co.uk/id/notice/3065196#> .
+<https://www.thegazette.co.uk/id/notice/3065196>	ns1:isAbout	ns146:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:46"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065201>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns147:	<https://www.thegazette.co.uk/id/notice/3065201#> .
+<https://www.thegazette.co.uk/id/notice/3065201>	ns1:isAbout	ns147:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:01:09"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3120879>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns148:	<https://www.thegazette.co.uk/id/notice/3120879#> .
+<https://www.thegazette.co.uk/id/notice/3120879>	ns1:isAbout	ns148:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-10-01T13:30:32"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3055424>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns149:	<https://www.thegazette.co.uk/id/notice/3055424#> .
+<https://www.thegazette.co.uk/id/notice/3055424>	ns1:isAbout	ns149:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-06-26T16:31:30"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065195>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns150:	<https://www.thegazette.co.uk/id/notice/3065195#> .
+<https://www.thegazette.co.uk/id/notice/3065195>	ns1:isAbout	ns150:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:42"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3065198>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns151:	<https://www.thegazette.co.uk/id/notice/3065198#> .
+<https://www.thegazette.co.uk/id/notice/3065198>	ns1:isAbout	ns151:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-07-10T18:00:56"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3120881>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns152:	<https://www.thegazette.co.uk/id/notice/3120881#> .
+<https://www.thegazette.co.uk/id/notice/3120881>	ns1:isAbout	ns152:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-10-01T13:30:43"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3223981>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns153:	<https://www.thegazette.co.uk/id/notice/3223981#> .
+<https://www.thegazette.co.uk/id/notice/3223981>	ns1:isAbout	ns153:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2019-03-05T14:50:07"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3029506>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns154:	<https://www.thegazette.co.uk/id/notice/3029506#> .
+<https://www.thegazette.co.uk/id/notice/3029506>	ns1:isAbout	ns154:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-05-17T12:04:14"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3087799>	rdf:type	ns1:Notice ,
+		ns2:PetitionsToWindUpCompaniesNotice .
+@prefix ns155:	<https://www.thegazette.co.uk/id/notice/3087799#> .
+<https://www.thegazette.co.uk/id/notice/3087799>	ns1:isAbout	ns155:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2018-08-14T12:08:47"^^xsd:dateTime .
+ns84:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05704064> ,
+		<http://business.data.gov.uk/id/company/05704172> ,
+		<http://business.data.gov.uk/id/company/05704083> ,
+		<http://business.data.gov.uk/id/company/05704135> ,
+		<http://business.data.gov.uk/id/company/05704108> ,
+		<http://business.data.gov.uk/id/company/05704254> .
+ns149:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01686252> .
+ns75:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03126198> .
+ns102:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01685693> .
+ns145:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03902700> .
+ns80:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05325813> .
+ns147:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02063449> .
+ns31:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02355338> .
+ns121:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01180475> .
+ns101:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02489314> .
+ns124:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03256112> .
+ns133:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05325813> .
+ns107:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00881324> .
+ns34:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03392601> .
+ns96:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05769391> .
+ns48:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08684413> .
+ns38:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01521006> .
+ns6:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03782379> .
+ns61:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03126198> .
+ns144:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03256112> .
+ns71:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01294261> .
+ns148:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01123611> .
+ns45:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03858865> .
+ns120:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02112970> .
+ns39:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00883233> .
+ns40:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02404092> .
+@prefix ns156:	<http://business.data.gov.uk/id/company/> .
+ns25:notifiableThing	ns2:hasCompany	ns156:OC307955 .
+ns114:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01752119> .
+ns47:notifiableThing	ns2:hasCompany	ns156:NI016109 .
+ns60:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00077628> .
+ns83:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00156617> .
+ns23:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02294384> .
+ns62:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05704083> ,
+		<http://business.data.gov.uk/id/company/05704172> ,
+		<http://business.data.gov.uk/id/company/05704254> ,
+		<http://business.data.gov.uk/id/company/05704135> ,
+		<http://business.data.gov.uk/id/company/05704064> ,
+		<http://business.data.gov.uk/id/company/05704108> .
+ns37:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09961994> .
+ns29:notifiableThing	ns2:hasCompany	ns156:NI016109 .
+ns122:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01686252> .
+ns67:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00961738> .
+ns41:notifiableThing	ns2:hasCompany	ns156:SC020258 .
+ns104:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03198709> .
+ns111:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03232308> .
+ns136:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09822736> .
+ns95:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05769391> .
+ns81:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01449086> .
+ns18:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02646690> .
+ns116:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09822818> .
+ns150:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01577583> .
+ns53:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02404092> .
+ns15:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00531085> .
+ns86:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00728599> .
+ns74:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/06607841> .
+ns78:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02811168> .
+ns36:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00326348> .
+ns87:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/10556292> .
+ns28:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02840336> .
+ns69:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00662675> .
+ns13:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00881324> .
+ns26:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05769391> .
+ns151:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00551186> .
+ns126:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01752119> .
+ns55:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01367044> .
+ns110:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02574820> .
+ns137:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09684392> .
+ns105:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05769391> .
+ns11:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01367044> .
+ns92:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02574792> .
+ns44:notifiableThing	ns2:hasCompany	ns156:NI016109 .
+ns140:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00961738> .
+ns142:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08684413> .
+ns49:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/06607841> .
+ns88:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/04448876> .
+ns127:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01808326> .
+ns73:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01685693> .
+ns90:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09822833> .
+ns100:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03392601> .
+ns154:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02294384> .
+ns125:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00247624> .
+ns22:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05704135> ,
+		<http://business.data.gov.uk/id/company/05704254> ,
+		<http://business.data.gov.uk/id/company/05704172> ,
+		<http://business.data.gov.uk/id/company/05704083> ,
+		<http://business.data.gov.uk/id/company/05704064> ,
+		<http://business.data.gov.uk/id/company/05704108> .
+ns30:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02684154> .
+ns106:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08404799> .
+ns82:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01122808> .
+ns32:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02508579> .
+ns17:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09598536> .
+ns16:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09598495> .
+ns58:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00416147> .
+ns91:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00537677> .
+ns54:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01521006> .
+ns94:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00662675> .
+ns79:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/10546542> .
+ns21:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/04322876> .
+@prefix ns157:	<https://www.thegazette.co.uk/def/organisation#> .
+<http://business.data.gov.uk/id/company/05704108>	ns157:companyNumber	"05704108  "^^xsd:string ;
+	ns157:name	"CARILLION (ASPIRE CONSTRUCTION) HOLDINGS NO.2 LIMITED  "^^xsd:string ,
+		"CARILLION (ASPIRE CONSTRUCTION) HOLDINGS NO.2 LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/09822736>	ns157:companyNumber	"09822736"^^xsd:string ;
+	ns157:name	"CARILLION PRIVATE FINANCE (HEALTH) 2015 LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/09822818>	ns157:companyNumber	"09822818"^^xsd:string ;
+	ns157:name	"THE HOSPITAL COMPANY (SANDWELL) LIMITED"^^xsd:string .
+ns156:SC020258	ns157:companyNumber	"SC020258"^^xsd:string ,
+		"SC020258\n                     "^^xsd:string ;
+	ns157:name	"CARILLION (AMBS) LIMITED"^^xsd:string ,
+		"\n                     CARILLION (AMBS) LIMITED\n                     "^^xsd:string .
+<http://business.data.gov.uk/id/company/00662675>	ns157:companyNumber	"00662675"^^xsd:string ;
+	ns157:name	"\n          MARCHWIEL PROPERTIES LIMITED"^^xsd:string ,
+		"MARCHWIEL PROPERTIES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01417540>	ns157:companyNumber	"01417540"^^xsd:string ;
+	ns157:name	"CARILLION PROJECT INVESTMENTS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03392601>	ns157:companyNumber	"03392601"^^xsd:string ;
+	ns157:name	"MOWLEM ENVIRONMENTAL SCIENCES GROUP LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/06607841>	ns157:companyNumber	"06607841"^^xsd:string ;
+	ns157:name	"CULTURAL COMMUNITY SOLUTIONS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00537677>	ns157:companyNumber	"00537677"^^xsd:string ,
+		"00537677" ;
+	ns157:name	"CARILLION FLEET MANAGEMENT LIMITED"^^xsd:string ,
+		"CARILLION FLEET MANAGEMENT LIMITED" .
+<http://business.data.gov.uk/id/company/00883233>	ns157:companyNumber	"00883233"^^xsd:string ;
+	ns157:name	"CARILLION CONSTRUCTION (WEST INDIES) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/04322876>	ns157:companyNumber	"04322876"^^xsd:string ;
+	ns157:name	"CARILLION PROPERTY SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/08404799>	ns157:companyNumber	"08404799"^^xsd:string ;
+	ns157:name	"CARILLION-BREATHE LIMITED"^^xsd:string ,
+		"CARILLION-BREATHE LIMITED "^^xsd:string .
+<http://business.data.gov.uk/id/company/09598536>	ns157:companyNumber	"09598536"^^xsd:string ;
+	ns157:name	"PSBP MIDLANDS (HOLDINGS) LIMITED"^^xsd:string .
+ns139:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01401298> .
+ns72:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00398443> .
+ns9:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01417540> .
+ns115:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01123611> .
+ns117:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02630590> .
+ns135:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01270381> .
+ns10:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03902730> .
+ns46:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02811168> .
+ns14:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00594581> .
+ns143:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/04448876> .
+ns51:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/10556292> .
+ns109:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09822833> .
+ns7:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01577583> .
+ns57:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03783019> .
+ns50:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01505628> .
+ns98:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/10546542> .
+ns19:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00247624> .
+ns146:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00156617> .
+ns35:notifiableThing	ns2:hasCompany	ns156:SC020258 .
+ns141:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02836739> .
+ns134:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02995364> .
+ns97:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03902700> .
+ns63:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02995513> .
+ns77:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02112970> .
+ns129:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02023634> .
+ns130:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01505628> .
+ns24:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08404799> .
+ns108:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02630590> .
+ns128:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09822818> .
+ns99:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09961994> .
+ns27:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00885404> .
+ns103:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02997859> .
+ns8:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00551186> .
+ns155:notifiableThing	ns2:hasCompany	ns156:OC307955 .
+ns112:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02916489> .
+<http://business.data.gov.uk/id/company/02294384>	ns157:companyNumber	"02294384"^^xsd:string ;
+	ns157:name	"CARILLION SWINDON LIMITED"^^xsd:string ,
+		" CARILLION SWINDON LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02404092>	ns157:companyNumber	"02404092"^^xsd:string ;
+	ns157:name	"BUILDING ENVIRONMENTAL HYGIENE LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02684154>	ns157:companyNumber	"02684154"^^xsd:string ;
+	ns157:name	"CARILLION SERVICES 2006 LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02811168>	ns157:companyNumber	"02811168"^^xsd:string ;
+	ns157:name	"BARCLAY MOWLEM (ASIA) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03679838>	ns157:companyNumber	"03679838"^^xsd:string ;
+	ns157:name	"CARILLION INTEGRATED SERVICES LIMITED"^^xsd:string .
+ns76:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00775010> .
+ns20:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01685693> .
+ns52:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01180475> .
+ns85:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02063449> .
+ns119:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02023634> .
+ns132:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02836739> .
+ns59:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00566465> .
+ns64:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02489314> .
+ns33:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00737307> .
+ns42:notifiableThing	ns2:hasCompany	ns156:SC020258 .
+ns118:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00680231> .
+ns12:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01294261> .
+ns153:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00416147> .
+ns93:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01449086> .
+ns89:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01401298> .
+ns131:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03011791> .
+ns70:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02355338> .
+ns65:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/01808326> .
+ns138:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03679838> .
+ns123:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00326348> .
+ns43:notifiableThing	ns2:hasCompany	ns156:SC203910 .
+ns152:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/09822736> .
+ns113:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00775010> .
+ns68:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/00398443> .
+ns66:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/02997859> .
+<http://business.data.gov.uk/id/company/02574820>	ns157:companyNumber	"02574820"^^xsd:string ;
+	ns157:name	"TPS CONSULT LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/05704172>	ns157:companyNumber	"05704172 "^^xsd:string ;
+	ns157:name	"CARILLION (ASPIRE SERVICES) HOLDINGS NO.2 LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03902700>	ns157:companyNumber	"03902700"^^xsd:string ;
+	ns157:name	"CARILLION AQUMEN MANAGEMENT SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/05704254>	ns157:companyNumber	"05704254  "^^xsd:string ;
+	ns157:name	"CARILLION (ASPIRE SERVICES) LIMITED "^^xsd:string .
+<http://business.data.gov.uk/id/company/01577583>	ns157:companyNumber	"01577583"^^xsd:string ;
+	ns157:name	"W A INVESTMENTS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01752119>	ns157:companyNumber	"01752119"^^xsd:string ;
+	ns157:name	"INSPIREDSPACES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01808326>	ns157:companyNumber	"01808326"^^xsd:string ;
+	ns157:name	"AM NOMINEES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02646690>	ns157:companyNumber	"02646690"^^xsd:string ;
+	ns157:name	"SCHAL INTERNATIONAL MANAGEMENT LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03011791>	ns157:companyNumber	"03011791"^^xsd:string ;
+	ns157:name	"CARILLION SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/05704083>	ns157:companyNumber	"05704083  "^^xsd:string ;
+	ns157:name	"CARILLION (ASPIRE CONSTRUCTION) HOLDINGS LIMITED"^^xsd:string ,
+		"CARILLION (ASPIRE CONSTRUCTION) HOLDINGS LIMITED "^^xsd:string .
+ns156:OC307955	ns157:companyNumber	"OC307955" ,
+		"OC307955"^^xsd:string ;
+	ns157:name	"SA 1 DEVELOPMENTS LLP" ,
+		"SA 1 DEVELOPMENTS LLP"^^xsd:string .
+ns156:SC203910	ns157:companyNumber	"SC203910"^^xsd:string ;
+	ns157:name	"CARILLION (AMBS) HOLDINGS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00551186>	ns157:companyNumber	"00551186"^^xsd:string ;
+	ns157:name	"CARILLION (SINGAPORE) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00737307>	ns157:companyNumber	"00737307"^^xsd:string ;
+	ns157:name	"PLANNED MAINTENANCE ENGINEERING LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01367044>	ns157:companyNumber	"01367044"^^xsd:string ;
+	ns157:name	"CARILLION (AM) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01686252>	ns157:companyNumber	"01686252"^^xsd:string ;
+	ns157:name	"CARILLION HOME SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02489314>	ns157:companyNumber	"02489314"^^xsd:string ;
+	ns157:name	"CHURCHWARD PLC"^^xsd:string ,
+		" CHURCHWARD PLC"^^xsd:string .
+<http://business.data.gov.uk/id/company/03198709>	ns157:companyNumber	"03198709"^^xsd:string ,
+		"03198709" ;
+	ns157:name	"CARILLION LGS LIMITED"^^xsd:string ,
+		"CARILLION LGS LIMITED" .
+<http://business.data.gov.uk/id/company/05325813>	ns157:companyNumber	"05325813"^^xsd:string ;
+	ns157:name	"CLINICENTA LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00566465>	ns157:companyNumber	"00566465"^^xsd:string ;
+	ns157:name	"DUDLEY BOWER GROUP PLC"^^xsd:string .
+<http://business.data.gov.uk/id/company/00775010>	ns157:companyNumber	"00775010"^^xsd:string ;
+	ns157:name	"THE CARILLION CONSTRUCTION COMPANY (EAST AFRICA) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00885404>	ns157:companyNumber	"00885404"^^xsd:string ;
+	ns157:name	"CARILLION AM GOVERNMENT LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01685693>	ns157:companyNumber	"01685693"^^xsd:string ;
+	ns157:name	"CARILLION AM DEVELOPMENTS LIMITED"^^xsd:string ,
+		"CARILLION AM DEVELOPMENTS  LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02836739>	ns157:companyNumber	"02836739"^^xsd:string ;
+	ns157:name	"GEORGE HOWE LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03256112>	ns157:companyNumber	"03256112"^^xsd:string ;
+	ns157:name	"CARILLION (DENMARK) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03858865>	ns157:companyNumber	"03858865"^^xsd:string ;
+	ns157:name	"CARILLION ENERGY SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00247624>	ns157:companyNumber	"00247624"^^xsd:string ,
+		"00247624" ;
+	ns157:name	"CARILLION CAPITAL PROJECTS LIMITED"^^xsd:string ,
+		"CARILLION CAPITAL PROJECTS LIMITED" .
+<http://business.data.gov.uk/id/company/00156617>	ns157:companyNumber	"00156617"^^xsd:string ;
+	ns157:name	"CARILLION CONSTRUCTION (CONTRACTS) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00326348>	ns157:companyNumber	"00326348"^^xsd:string ;
+	ns157:name	"MCALPINE INFRASTRUCTURE SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01521006>	ns157:companyNumber	"01521006"^^xsd:string ;
+	ns157:name	"CARILLION UTILITY SERVICES GROUP LIMITED"^^xsd:string ,
+		" CARILLION UTILITY SERVICES GROUP LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03232308>	ns157:companyNumber	"03232308"^^xsd:string ;
+	ns157:name	"SOVEREIGN HOSPITAL SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/08684413>	ns157:companyNumber	"08684413"^^xsd:string ;
+	ns157:name	"CARILLION PRIVATE FINANCE (HEALTH) 2013 LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/09822833>	ns157:companyNumber	"09822833"^^xsd:string ;
+	ns157:name	"THE HOSPITAL COMPANY (SANDWELL) HOLDINGS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/10556292>	ns157:companyNumber	"10556292" ,
+		"10556292"^^xsd:string ;
+	ns157:name	"CARILLION ADVICE SERVICES LIMITED" ,
+		"CARILLION ADVICE SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00531085>	ns157:companyNumber	"00531085"^^xsd:string ;
+	ns157:name	"PME TECHNICAL SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01401298>	ns157:companyNumber	"01401298"^^xsd:string ;
+	ns157:name	"MARCHWIEL INVESTMENTS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/05769391>	ns157:companyNumber	"05769391"^^xsd:string ;
+	ns157:name	"LODGE PARK COMMERCIAL DEVELOPMENTS LIMITED "^^xsd:string ,
+		"LODGE PARK COMMERCIAL DEVELOPMENTS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/10546542>	ns157:companyNumber	"10546542"^^xsd:string ;
+	ns157:name	"CARILLION RESOURCING LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00398443>	ns157:companyNumber	"00398443"^^xsd:string ,
+		"00398443" ;
+	ns157:name	"CARILLION MENA LIMITED" ,
+		"CARILLION MENA LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00594581>	ns157:companyNumber	"00594581"^^xsd:string ;
+	ns157:name	"CARILLION CONSTRUCTION LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00728599>	ns157:companyNumber	"00728599"^^xsd:string ;
+	ns157:name	"CARILLION UTILITY SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01505628>	ns157:companyNumber	"01505628"^^xsd:string ;
+	ns157:name	"ALFRED MCALPINE ASSET MANAGEMENT SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/04448876>	ns157:companyNumber	"04448876" ,
+		"04448876"^^xsd:string ;
+	ns157:name	"EAGA ENERGY SOLUTIONS LIMITED" ,
+		"EAGA ENERGY SOLUTIONS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/09684392>	ns157:companyNumber	"09684392"^^xsd:string ;
+	ns157:name	"CARILLION PRIVATE FINANCE (EDUCATION) 2015 LIMITED"^^xsd:string .
+@prefix ns158:	<https://www.thegazette.co.uk/id/notice/3558945#> .
+ns158:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05753751> .
+<http://business.data.gov.uk/id/company/02574792>	ns157:companyNumber	"02574792"^^xsd:string ;
+	ns157:name	"CARILLION SPECIALIST SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02630590>	ns157:companyNumber	"02630590"^^xsd:string ,
+		"02630590" ;
+	ns157:name	"CARILLION REGENERATION  LIMITED"^^xsd:string ,
+		"CARILLION REGENERATION LIMITED" ,
+		"CARILLION REGENERATION LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03782379>	ns157:companyNumber	"03782379"^^xsd:string ;
+	ns157:name	"CARILLION PLC"^^xsd:string .
+<http://business.data.gov.uk/id/company/05704135>	ns157:companyNumber	"05704135  "^^xsd:string ;
+	ns157:name	"CARILLION (ASPIRE CONSTRUCTION) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00961738>	ns157:companyNumber	"00961738"^^xsd:string ;
+	ns157:name	"CARILLION PROJECT SERVICES HOLDINGS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02916489>	ns157:companyNumber	"02916489"^^xsd:string ;
+	ns157:name	"CARILLION PROFESSIONAL SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02995364>	ns157:companyNumber	"02995364" ,
+		"02995364"^^xsd:string ;
+	ns157:name	"CENTRAC LIMITED" ,
+		"CENTRAC LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/09598495>	ns157:companyNumber	"09598495"^^xsd:string ;
+	ns157:name	"PSBP MIDLANDS (DEBTCO) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00416147>	ns157:companyNumber	"00416147"^^xsd:string ;
+	ns157:name	"RAINE LIMITED"^^xsd:string ,
+		"\n          RAINE  LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00680231>	ns157:companyNumber	"00680231"^^xsd:string ;
+	ns157:name	"SOVEREIGN CONSULTANCY SERVICES LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01180475>	ns157:companyNumber	"01180475"^^xsd:string ;
+	ns157:name	"CARILLION TECHNICAL SERVICES (INSTALLATION) LIMITED"^^xsd:string ,
+		" CARILLION TECHNICAL SERVICES (INSTALLATION) LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02023634>	ns157:companyNumber	"02023634"^^xsd:string ,
+		"02023634" ;
+	ns157:name	"E.J. HORROCKS LIMITED" ,
+		"E.J. HORROCKS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02355338>	ns157:companyNumber	"02355338"^^xsd:string ;
+	ns157:name	"CARILLION UTILITY SERVICES S.E. LIMITED"^^xsd:string ,
+		" CARILLION UTILITY SERVICES S.E. LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02995513>	ns157:companyNumber	"02995513"^^xsd:string ;
+	ns157:name	"G T RAILWAY MAINTENANCE LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01449086>	ns157:companyNumber	"01449086"^^xsd:string ;
+	ns157:name	"ALFRED MCALPINE INTERNATIONAL LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03783019>	ns157:companyNumber	"03783019"^^xsd:string ;
+	ns157:name	"CARILLION HOLDINGS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03902730>	ns157:companyNumber	"03902730"^^xsd:string ;
+	ns157:name	"PME PARTNERSHIPS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/05704064>	ns157:companyNumber	"05704064  "^^xsd:string ;
+	ns157:name	"CARILLION (ASPIRE SERVICES) HOLDINGS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01122808>	ns157:companyNumber	"01122808"^^xsd:string ;
+	ns157:name	"CARILLION ASSET MANAGEMENT LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02063449>	ns157:companyNumber	"02063449"^^xsd:string ;
+	ns157:name	"1ST INSULATION PARTNERS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02112970>	ns157:companyNumber	"02112970"^^xsd:string ;
+	ns157:name	"WAKEREMOTE LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02508579>	ns157:companyNumber	"02508579"^^xsd:string ;
+	ns157:name	"POSTWORTH LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02840336>	ns157:companyNumber	"02840336" ,
+		"02840336"^^xsd:string ;
+	ns157:name	"EVERPRIME LIMITED" ,
+		"EVERPRIME LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/03126198>	ns157:companyNumber	"03126198"^^xsd:string ;
+	ns157:name	"G T RAILWAY MAINTENANCE HOLDINGS LIMITED"^^xsd:string ,
+		" G T  RAILWAY MAINTENANCE HOLDINGS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/09961994>	ns157:companyNumber	"09961994"^^xsd:string ,
+		"09961994" ;
+	ns157:name	"CARILLION PRIVATE FINANCE (EDUCATION) 2016 LIMITED" ,
+		"CARILLION PRIVATE FINANCE (EDUCATION) 2016 LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/00881324>	ns157:companyNumber	"00881324"^^xsd:string ;
+	ns157:name	"CARILLION SUPPORT SERVICES & INVESTMENTS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/02997859>	ns157:companyNumber	"02997859" ,
+		"02997859"^^xsd:string ;
+	ns157:name	"CARILLION PRIVATE FINANCE LIMITED" ,
+		"CARILLION PRIVATE FINANCE LIMITED"^^xsd:string .
+ns156:NI016109	ns157:companyNumber	"NI016109"^^xsd:string ,
+		"NI016109" ,
+		"NI016109 "^^xsd:string ;
+	ns157:name	"HEAT, ENERGY AND ASSOCIATED TECHNOLOGY LIMITED" ,
+		"HEAT ENERGY AND ASSOCIATED TECHNOLOGY LIMITED" ,
+		"HEAT ENERGY & ASSOCIATED TECHNOLOGY LIMITED "^^xsd:string .
+<http://business.data.gov.uk/id/company/00077628>	ns157:companyNumber	"00077628"^^xsd:string ;
+	ns157:name	"CARILLION JM LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01123611>	ns157:companyNumber	"01123611"^^xsd:string ;
+	ns157:name	"WALTER LAWRENCE DEVELOPMENTS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01270381>	ns157:companyNumber	"01270381"^^xsd:string ;
+	ns157:name	"CARILLION CONSTRUCTION OVERSEAS LIMITED"^^xsd:string .
+<http://business.data.gov.uk/id/company/01294261>	ns157:companyNumber	"01294261"^^xsd:string ;
+	ns157:name	"ERNEST IRELAND CONSTRUCTION LIMITED"^^xsd:string .
+<https://www.thegazette.co.uk/id/notice/3558238>	rdf:type	ns1:Notice ,
+		ns2:MembersNoticeToCreditors .
+@prefix ns159:	<https://www.thegazette.co.uk/id/notice/3558238#> .
+<https://www.thegazette.co.uk/id/notice/3558238>	ns1:isAbout	ns159:notifiableThing ;
+	ns1:hasNoticeCode	2433 ;
+	ns1:hasPublicationDate	"2020-05-01T17:40:07"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3558945>	rdf:type	ns1:Notice ,
+		ns2:NoticeOfIntendedDividends ;
+	ns1:isAbout	ns158:notifiableThing ;
+	ns1:hasNoticeCode	2406 ;
+	ns1:hasPublicationDate	"2020-05-04T17:40:30"^^xsd:dateTime .
+<https://www.thegazette.co.uk/id/notice/3558237>	rdf:type	ns2:MembersAppointmentOfLiquidatorsNotice ,
+		ns1:Notice .
+@prefix ns160:	<https://www.thegazette.co.uk/id/notice/3558237#> .
+<https://www.thegazette.co.uk/id/notice/3558237>	ns1:isAbout	ns160:notifiableThing ;
+	ns1:hasNoticeCode	2432 ;
+	ns1:hasPublicationDate	"2020-05-01T17:40:06"^^xsd:dateTime .
+ns160:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05753751> .
+<http://business.data.gov.uk/id/company/05753751>	ns157:companyNumber	"05753751" ;
+	ns157:name	"CARILLION PRIVATE FINANCE (TRANSPORT) LIMITED" .
+<https://www.thegazette.co.uk/id/notice/3558239>	rdf:type	ns1:Notice ,
+		ns2:MembersResolutionsForWindingUpNotice .
+@prefix ns161:	<https://www.thegazette.co.uk/id/notice/3558239#> .
+<https://www.thegazette.co.uk/id/notice/3558239>	ns1:isAbout	ns161:notifiableThing ;
+	ns1:hasNoticeCode	2431 ;
+	ns1:hasPublicationDate	"2020-05-01T17:40:08"^^xsd:dateTime .
+ns161:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05753751> .
+ns159:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/05753751> .
+<https://www.thegazette.co.uk/id/notice/3649750>	rdf:type	ns1:Notice ,
+		ns2:WindingUpOrdersNotice ;
+	ns1:isAbout	ns56:notifiableThing ;
+	ns1:hasNoticeCode	2452 ;
+	ns1:hasPublicationDate	"2020-10-13T10:01:47"^^xsd:dateTime .
+ns3:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08747138> .
+<http://business.data.gov.uk/id/company/08747138>	ns157:companyNumber	"08747138" ;
+	ns157:name	"THE HOSPITAL COMPANY (LIVERPOOL) LIMITED" .
+ns5:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/08747138> .
+<https://www.thegazette.co.uk/id/notice/3636259>	rdf:type	ns2:PetitionsToWindUpCompaniesNotice ,
+		ns1:Notice .
+@prefix ns162:	<https://www.thegazette.co.uk/id/notice/3636259#> .
+<https://www.thegazette.co.uk/id/notice/3636259>	ns1:isAbout	ns162:notifiableThing ;
+	ns1:hasNoticeCode	2450 ;
+	ns1:hasPublicationDate	"2020-09-23T12:00:08"^^xsd:dateTime .
+ns162:notifiableThing	ns2:hasCompany	<http://business.data.gov.uk/id/company/03105686> .
+<http://business.data.gov.uk/id/company/03105686>	ns157:companyNumber	"03105686" ;
+	ns157:name	"CARILLION GB LIMITED" .
+<https://www.thegazette.co.uk/id/notice/5060171>	rdf:type	ns1:Notice ,
+		ns2:NoticeOfDividends .
+@prefix ns163:	<https://www.thegazette.co.uk/id/notice/5060171#> .
+<https://www.thegazette.co.uk/id/notice/5060171>	ns1:isAbout	ns163:notifiableThing ;
+	ns1:hasNoticeCode	2407 ;
+	ns1:hasPublicationDate	"2026-02-20T12:05:57"^^xsd:dateTime .
+ns163:notifiableThing	ns2:hasCompany	ns156:NI016109 .
+@prefix ns164:	<https://www.thegazette.co.uk/id/notice/5204952#> .
+ns164:notifiableThing	ns2:hasCompany	ns156:NI016109 .
+<https://www.thegazette.co.uk/id/notice/5204952>	rdf:type	ns2:CreditorsFinalMeetingsNotice ,
+		ns1:Notice ;
+	ns1:isAbout	ns164:notifiableThing ;
+	ns1:hasNoticeCode	2445 ;
+	ns1:hasPublicationDate	"2026-09-04T12:01:36"^^xsd:dateTime .

@@ -4,8 +4,8 @@ layout: cover
 class: rdfox-cover
 title: "Corporate Insolvency: Hidden Signals of Exposure"
 info: |
-  A case study showing why ordinary KYC can miss insolvency exposure elsewhere
-  in a supplier's corporate group, and how RDFox can connect the evidence.
+  A case study showing why a subcontractor's ordinary KYC can miss insolvency
+  exposure elsewhere in a customer's corporate group, and how RDFox connects it.
 drawings:
   persist: false
 transition: slide-left
@@ -209,7 +209,7 @@ class: timeline-summary
 
 <div class="investigation-callout">
   <strong>KYC relevance</strong>
-  <span>No single event proves future insolvency. Together they provide context for why a later formal group event should trigger immediate supplier-risk review.</span>
+  <span>No single event proves future insolvency. Together they show why a later formal group event should trigger an immediate customer-credit review for a subcontractor.</span>
 </div>
 
 <div class="source-note">Source: financial-difficulties chronology summarised from Wikipedia [1]</div>
@@ -259,65 +259,65 @@ class: timeline-summary
 layout: section
 ---
 
-<div class="chapter-kicker">Baseline run</div>
+<div class="chapter-kicker">Subcontractor perspective · baseline run</div>
 
-# Why ordinary KYC alerts too late
+# Why ordinary customer KYC alerts too late
 
 ---
 
-# A fictional company's supplier list
+# A subcontractor's customer accounts
 
-<div class="supplier-list">
-  <div class="supplier-list-head">
-    <span>Supplier</span><span>Company number</span><span>Direct check</span>
+<div class="customer-account-list">
+  <div class="customer-account-list-head">
+    <span>Customer</span><span>Company number</span><span>Relationship</span>
   </div>
   <div>
-    <strong>Carillion Construction Limited</strong><code>00594581</code><span>Supplier</span>
+    <strong>Carillion Construction Limited</strong><code>00594581</code><span>Customer</span>
   </div>
   <div>
-    <strong>Carillion JM Limited</strong><code>00077628</code><span>Supplier</span>
+    <strong>Carillion JM Limited</strong><code>00077628</code><span>Customer</span>
   </div>
   <div>
-    <strong>Balfour Beatty plc</strong><code>00395826</code><span>Supplier</span>
+    <strong>Balfour Beatty plc</strong><code>00395826</code><span>Customer</span>
   </div>
   <div>
-    <strong>Travis Perkins plc</strong><code>00824821</code><span>Supplier</span>
+    <strong>Travis Perkins plc</strong><code>00824821</code><span>Customer</span>
   </div>
 </div>
 
-<div class="customer-banner">
-  <span>Fictional customer</span>
+<div class="subcontractor-banner">
+  <span>Our fictional subcontractor</span>
   <strong>Northbridge Infrastructure Services Limited</strong>
   <code>SYN90001</code>
 </div>
 
-<div class="source-note">Supplier relationships are synthetic; supplier company identities are real public records.</div>
+<div class="source-note">Customer relationships are synthetic; counterparty company identities are real public records.</div>
 
 ---
 
-# Entity-by-entity KYC misses the hidden signal
+# Entity-by-entity customer KYC misses the hidden signal
 
 <div class="evidence-grid three">
   <div class="evidence-card">
     <span class="card-number">01</span>
-    <h3>Does the company exist?</h3>
-    <p>Confirm its company number, name, status and registered particulars.</p>
+    <h3>Does our customer exist?</h3>
+    <p>Northbridge confirms its company number, name, status and registered particulars.</p>
   </div>
   <div class="evidence-card">
     <span class="card-number">02</span>
-    <h3>Is the supplier insolvent?</h3>
-    <p>Search for a direct insolvency status or notice against that legal entity.</p>
+    <h3>Is our customer insolvent?</h3>
+    <p>Northbridge searches for a direct insolvency status or notice against that legal entity.</p>
   </div>
   <div class="evidence-card">
     <span class="card-number">03</span>
-    <h3>Are records current?</h3>
-    <p>Review filings, accounts and other standard onboarding evidence.</p>
+    <h3>Should we extend credit?</h3>
+    <p>Northbridge reviews filings, accounts and other standard onboarding evidence.</p>
   </div>
 </div>
 
 <div class="investigation-callout risk">
   <strong>The KYC blind spot</strong>
-  <span>The direct supplier can still look acceptable while a formal risk event is attached to its parent or another company in the same inferred group.</span>
+  <span>A direct Carillion customer can still look acceptable while a formal risk event is attached to its parent or another company in the same inferred group.</span>
 </div>
 
 ---
@@ -342,12 +342,12 @@ layout: section
 
 <div class="investigation-callout">
   <strong>What ordinary KYC cannot infer</strong>
-  <span>The supplier is ultimately controlled by Carillion plc, so a Gazette event against the parent changes the customer's risk before the supplier has its own notice.</span>
+  <span>Northbridge's customer is ultimately controlled by Carillion plc, so a Gazette event against the parent changes the subcontractor's credit exposure before its direct customer has a notice.</span>
 </div>
 
 ---
 
-# Waiting for direct confirmation is operationally late
+# Waiting for a direct customer notice is operationally late
 
 <div class="evidence-grid three">
   <div class="evidence-card">
@@ -362,8 +362,8 @@ layout: section
   </div>
   <div class="evidence-card">
     <span class="card-number">03</span>
-    <h3>Creditors make claims</h3>
-    <p>Unpaid suppliers must establish claims against the assets available in liquidation.</p>
+    <h3>Northbridge becomes a creditor</h3>
+    <p>As an unpaid subcontractor, it must establish claims against the assets available in liquidation.</p>
   </div>
 </div>
 
@@ -390,8 +390,8 @@ layout: section
 <div class="evidence-chain three-source">
   <div>
     <span class="chain-step">1</span>
-    <strong>Supplier data</strong>
-    <p>Who the fictional customer buys from, identified by company number.</p>
+    <strong>Customer ledger</strong>
+    <p>Which companies Northbridge supplies and invoices, identified by company number.</p>
   </div>
   <div>
     <span class="chain-step">2</span>
@@ -440,16 +440,17 @@ layout: section
 
 <div class="datalog-inference">
   <span>Alert inference</span>
-  <code>supplier(S) ∧ memberOfGroup(S,G) ∧ memberOfGroup(C,G) ∧ hasInsolvencyNotice(C,N)<br>→ groupInsolvencyExposure(S,N)</code>
+  <code>hasCustomer(S,C) ∧ memberOfGroup(C,G) ∧ memberOfGroup(E,G) ∧ hasInsolvencyNotice(E,N)<br>→ groupInsolvencyExposure(S,C,N)</code>
 </div>
 
 ---
 
 # The inferred path explains the KYC alert
 
+
 ```text
 Northbridge Infrastructure Services
-  └─ has supplier ───────────────► Company 00594581
+  └─ supplies / invoices ────────► Customer 00594581
                                       │
                                       ├─ ultimately controlled by
                                       ▼
@@ -473,8 +474,8 @@ Northbridge Infrastructure Services
 <div class="alert-window">
   <div>
     <span>1 · Baseline</span>
-    <strong>Direct supplier check</strong>
-    <p>No insolvency notice is found against the contracted entity.</p>
+    <strong>Direct customer check</strong>
+    <p>No insolvency notice is found against Northbridge's contracted customer.</p>
   </div>
   <div>
     <span>2 · Public event</span>
@@ -484,18 +485,18 @@ Northbridge Infrastructure Services
   <div class="active">
     <span>3 · RDFox</span>
     <strong>Rule materialisation</strong>
-    <p>The event is immediately connected to suppliers inferred to belong to the same group.</p>
+    <p>The event is immediately connected to Northbridge's customers in the same inferred group.</p>
   </div>
   <div>
     <span>4 · KYC action</span>
     <strong>Explainable alert</strong>
-    <p>The customer reviews exposure instead of waiting for a direct supplier notice or service failure.</p>
+    <p>The subcontractor reviews credit exposure instead of waiting for its direct customer to fail.</p>
   </div>
 </div>
 
 <div class="investigation-callout risk">
   <strong>Evidence boundary</strong>
-  <span>“Early” means earlier in the customer's response window—not prediction before public evidence exists.</span>
+  <span>“Early” means earlier in the subcontractor's response window—not prediction before public evidence exists.</span>
 </div>
 
 ---
@@ -504,9 +505,9 @@ Northbridge Infrastructure Services
 
 <div class="alert-panel">
   <div class="alert-status">Corporate insolvency exposure</div>
-  <h2>Supplier 00594581 is linked to a liquidated group</h2>
+  <h2>Customer 00594581 is linked to a liquidated group</h2>
   <div class="alert-evidence">
-    <div><span>Supplier</span><strong>Carillion Construction Limited</strong></div>
+    <div><span>Customer</span><strong>Carillion Construction Limited</strong></div>
     <div><span>Ultimate parent</span><strong>Carillion plc · 03782379</strong></div>
     <div><span>Evidence</span><strong>Gazette notice 2948343</strong></div>
     <div><span>Event</span><strong>Winding-up order · code 2452</strong></div>
@@ -514,8 +515,8 @@ Northbridge Infrastructure Services
 </div>
 
 <div class="investigation-callout risk">
-  <strong>Suggested action</strong>
-  <span>Review unpaid balances, service continuity, contractual rights, alternative suppliers and exposure to other companies in the group.</span>
+  <strong>Suggested subcontractor action</strong>
+  <span>Review unpaid invoices, pause further unsecured work, protect contractual rights, assess cash-flow impact and diversify away from other customers in the group.</span>
 </div>
 
 ---
@@ -527,7 +528,7 @@ Northbridge Infrastructure Services
     <span>Question</span><span>Ordinary KYC</span><span>Connected RDFox view</span>
   </div>
   <div>
-    <span>Is the direct supplier identifiable?</span>
+    <span>Is the direct customer identifiable?</span>
     <strong>Yes</strong>
     <strong class="positive">Yes</strong>
   </div>
@@ -537,7 +538,7 @@ Northbridge Infrastructure Services
     <strong class="positive">Derived</strong>
   </div>
   <div>
-    <span>Does an event elsewhere in the group affect this supplier?</span>
+    <span>Does an event elsewhere in the group affect our customer exposure?</span>
     <strong class="negative">Usually hidden</strong>
     <strong class="positive">Connected</strong>
   </div>
@@ -556,17 +557,17 @@ Northbridge Infrastructure Services
   <div>
     <span>01</span>
     <strong>Signals are distributed</strong>
-    <p>Supplier, control and insolvency facts sit in separate records and datasets.</p>
+    <p>Customer-ledger, control and insolvency facts sit in separate records and datasets.</p>
   </div>
   <div>
     <span>02</span>
     <strong>KYC needs the group view</strong>
-    <p>A direct supplier can inherit operational risk from an event against another entity.</p>
+    <p>A subcontractor's direct customer can inherit credit risk from an event against another group entity.</p>
   </div>
   <div>
     <span>03</span>
     <strong>Datalog surfaces the signal</strong>
-    <p>Rules materialise control, group membership, notice links and supplier exposure.</p>
+    <p>Rules materialise control, group membership, notice links and customer exposure.</p>
   </div>
   <div>
     <span>04</span>

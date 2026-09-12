@@ -293,7 +293,13 @@
   padding: 0.8rem 1rem;
   background: var(--fox-ink);
   color: var(--fox-white);
+  
 }
+
+.datalog-inference  .code {
+  color: var(--fox-ink);
+}
+
 
 .framing-statement strong,
 .datalog-inference span {
@@ -313,6 +319,8 @@
   font-size: 0.64rem;
   white-space: normal;
 }
+
+
 
 .alert-window {
   display: grid;
@@ -1814,7 +1822,7 @@
   min-height: 12rem;
 }
 
-.supplier-list {
+.customer-account-list {
   margin-top: 1.6rem;
   overflow: hidden;
   border: 1px solid var(--fox-line);
@@ -1822,35 +1830,35 @@
   background: var(--fox-white);
 }
 
-.supplier-list > div {
+.customer-account-list > div {
   display: grid;
   grid-template-columns: 2fr 1fr 0.8fr;
   align-items: center;
   border-bottom: 1px solid var(--fox-line);
 }
 
-.supplier-list > div:last-child {
+.customer-account-list > div:last-child {
   border-bottom: 0;
 }
 
-.supplier-list span,
-.supplier-list strong,
-.supplier-list code {
+.customer-account-list span,
+.customer-account-list strong,
+.customer-account-list code {
   margin: 0;
   padding: 0.62rem 0.9rem;
   font-size: 0.72rem;
 }
 
-.supplier-list-head {
+.customer-account-list-head {
   background: var(--fox-ink);
 }
 
-.supplier-list-head span {
+.customer-account-list-head span {
   color: var(--fox-white);
   font-weight: 650;
 }
 
-.customer-banner,
+.subcontractor-banner,
 .join-key {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -1863,20 +1871,20 @@
   background: var(--fox-ink);
 }
 
-.customer-banner span,
+.subcontractor-banner span,
 .join-key span {
   color: #90a1bb;
   font-size: 0.65rem;
   text-transform: uppercase;
 }
 
-.customer-banner strong,
+.subcontractor-banner strong,
 .join-key strong {
   color: var(--fox-white);
   font-size: 0.82rem;
 }
 
-.customer-banner code,
+.subcontractor-banner code,
 .join-key code {
   border-color: rgba(85, 209, 248, 0.35);
   background: rgba(85, 209, 248, 0.08);
